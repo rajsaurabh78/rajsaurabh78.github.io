@@ -218,3 +218,11 @@ h1{
   #project{
     margin-top: 150px;
   }
+  #low button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-left:25%;
+    font-size:25px;
+    font-weight: bold;
+    border: 0ch;
+  }
