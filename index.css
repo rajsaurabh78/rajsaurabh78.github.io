@@ -226,3 +226,7 @@ h1{
     font-weight: bold;
     border: 0ch;
   }
+  button:hover{
+    color: rgb(246, 251, 251);
+    background-color:rgb(128,97,140) ;
+  }
