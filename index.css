@@ -12,6 +12,20 @@ body{
 #low{
   margin: auto;
 }
+#low div{
+  display: flex;
+  gap: 100px;
+}
+#web img{
+  height: 100px;
+  border-radius:50%;
+}
+
+#low div button{
+  width: 240px;
+  height:100px;
+
+}
 #star{
     display: flex;
 }
@@ -74,7 +88,7 @@ h1{
     display: block;
   } 
   
-  .orbit {
+  /* .orbit {
       margin-top: 150px;
       margin-bottom: 150px;
     --size:20rem;
@@ -186,7 +200,7 @@ h1{
   }
   /* ------------------------------------------------------------- */
   
-  @keyframes orbit {
+  /* @keyframes orbit {
     100% {
       rotate: 2turn;
     }
@@ -200,7 +214,7 @@ h1{
     100% {
       scale: 1.05;
     }
-  }
+  }  */
   #about h1,#edu h1,#skill h1,#project h1{
     margin-left: -600px;
     font-size:50px;
@@ -229,4 +243,32 @@ h1{
   button:hover{
     color: rgb(246, 251, 251);
     background-color:rgb(128,97,140) ;
+  }
+  span{
+    color: rgb(255,200,61);
+  }
+  #skill img{
+    width:120px;
+    /* border-radius: 50%; */
+  }
+  #skill div{ 
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap:50px;
+    column-gap:-100px;
+    text-align: center;
+    width: 80%;
+    margin-left: 350px;
+  }
+  #skill{
+    margin-left: -100px;
+  }
+  #navbar button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: auto;
+    
+  }
+  #navbar{
+    justify-content: space-between;
   }
