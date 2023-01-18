@@ -2,19 +2,19 @@
 let obj=[
     {
         name:"SkinStore Clone",
-        URL:"rajsaurabh78.github.io\img\skin.png",
+        URL:"https://static.thcdn.com/images/xlarge/webp/widgets/121-us/38/1180x450-082838.jpg",
         feat:"",
         tech:"Html | CSS | JavaScript | Github ",
     },
     {
         name:"Wrike Clone",
-        URL:"rajsaurabh78.github.io\img\wrike.png",
+        URL:"https://static.thcdn.com/images/xlarge/webp/widgets/121-us/38/1180x450-082838.jpg",
         feat:"",
         tech:"Html | CSS | JavaScript | Github "
     },
     {
         name:"Get Harvest",
-        URL:"rajsaurabh78.github.io\img\integ.png",
+        URL:"https://static.thcdn.com/images/xlarge/webp/widgets/121-us/38/1180x450-082838.jpg",
         feat:"",
         tech:"Html | CSS | JavaScript | Github "
     }
@@ -34,7 +34,7 @@ let obj=[
 
 let display=()=>{
     obj.forEach((el)=> {
-        let par=document.querySelector("#par");
+        let par=document.querySelector("#demo");
         let div=document.createElement("div")
         let div1=document.createElement("div")
         let div2=document.createElement("div")
@@ -45,13 +45,13 @@ let display=()=>{
         let h2=document.createElement("h2")
         h2.innerText=el.feat;
         let h3=document.createElement("h2")
-        h3.innerText=el.tech;
+        h3.innerText="Techstack  "+"\n"+el.tech;
         let img=document.createElement("img")
         img.src=el.URL;
         let btn1=document.createElement("button")
-        btn1.innerText="git"
+        btn1.innerText="GitHub"
         let btn2=document.createElement("button")
-        btn2.innerText="net"
+        btn2.innerText="Deploy"
         div1.append(h1)
         div2.append(img)
         div3.append(h2,h3)
@@ -90,3 +90,8 @@ let image=[
         }
         crau.src=image[imagestate];
     })
+
+
+    let dis=(x)=>{
+        x++
+    }
