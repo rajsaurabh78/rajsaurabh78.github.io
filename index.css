@@ -1,10 +1,17 @@
-body{
-  background-color: rgb(48,52,82);
+#star,#about{
+  /*  */
   /* text-align: center; */
+  /* background-image: url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif); */
+}
+
+body{
+  background-image: url(https://thumbs.gfycat.com/AdmiredDigitalHarrier-size_restricted.gif);
+  margin: auto;
+
 }
 #navbar{
   height: 80px;
-  background-color: rgb(128,97,140);
+  background-color: rgba(128,97,140,0.7);
   margin-bottom: 40px;
   border-radius: 20px;
   text-align: center;
@@ -51,7 +58,7 @@ body{
   border-radius: 50%;
 }
 h1{
-  color: rgb(128,97,140);
+  color: white;
   text-align: center;
 }
 #about{
@@ -113,12 +120,18 @@ h1{
   #low h1{
     font-size:40px;
   }
-  button:hover,#web img:hover,#contact img:hover{
+  button:hover,#web img:hover{
     color: rgb(246, 251, 251);
     background-color:rgb(128,97,140) ;
   }
   span{
     color: rgb(255,200,61);
+  }
+  #skill{
+    
+    border-radius: 20px;
+    width: 100%;
+    
   }
   #skill img{
     width:120px;
@@ -147,9 +160,13 @@ h1{
     align-items: center;
     justify-content: space-between;
   }
+  
   #contact img{
     width:80px;
 
+  }
+  #contact img:hover{
+    size:100px ;
   }
   #contact div{
     display: flex;
@@ -186,7 +203,7 @@ h1{
   right: 10px;
 }
 #demo>div{
-  border: 1px solid black;
+  border: 1px solid white;;
   margin-top: 80px;
 }
 #demo>div,#demo img{
@@ -208,4 +225,21 @@ h1{
 }
 #demo{
   text-align: center;
+}
+#main{
+  background-image: url(https://img1.picmix.com/output/stamp/normal/5/4/6/5/1755645_3a150.gif);
+}
+#about div p{
+  color: white;
+  margin: auto;
+  width: 93%;
+  text-align: justify;
+}
+#about div {
+  background-color: rgb(128,97,140);
+  height:190px;
+  border-radius: 20px;
+}
+h2,h3{
+  color: white;
 }
