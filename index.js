@@ -2,34 +2,25 @@
 let obj=[
     {
         name:"SkinStore Clone",
-        URL:"https://static.thcdn.com/images/xlarge/webp/widgets/121-us/38/1180x450-082838.jpg",
-        feat:"",
-        tech:"Html | CSS | JavaScript | Github ",
+        URL:"https://d1gzz21cah5pzn.cloudfront.net/img/websites/s/ski/skinstore.com-desktop@2x.1652819931.jpg",
+        feat:" "+"\n"+"Skinstore is an online retailer that sells premium beauty, clinical skincare, and luxury spa product.",
+        tech:" Sign-in | Sign-up | Cart page | Navbar | Footer "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ Html | CSS | JavaScript | Github "+"\n"+"\n"+"An individual project Developed within 4 days.",
+        deploy:"https://spontaneous-crumble-e389b6.netlify.app/",
     },
     {
         name:"Wrike Clone",
-        URL:"https://static.thcdn.com/images/xlarge/webp/widgets/121-us/38/1180x450-082838.jpg",
-        feat:"",
-        tech:"Html | CSS | JavaScript | Github "
+        URL:"https://management.org/wp-content/uploads/2022/03/Wrike-homepage-1024x483.png",
+        feat:" "+"\n"+"Wrike is an easy-to-use tool for streamlining the internal project management and collaboration processes between team members, whether they're in the same office or separated by an ocean.",
+        tech:" Sign-in | Sign-up | Price page | Wrike Blog | Tour page | Help center page"+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ Html | CSS | JavaScript | Github "+"\n"+"\n"+"Areas of responsibility  :-"+"\n"+"↪ WrikeBlog page"+"\n"+"\n"+"A collaborative project Developed within 4 days, with a team of 5.",
+        deploy:"https://spontaneous-crumble-e389b6.netlify.app/",
     },
     {
-        name:"Get Harvest",
-        URL:"https://static.thcdn.com/images/xlarge/webp/widgets/121-us/38/1180x450-082838.jpg",
-        feat:"",
-        tech:"Html | CSS | JavaScript | Github "
+        name:"Get Harvest Clone",
+        URL:"https://www.getharvest.com/hs-fs/hubfs/raw_assets/public/harvest-theme/images/homepage/test/spread.png?width=1323&name=spread.png",
+        feat:" "+"\n"+"Harvest is a cloud-based time tracking tool designed for businesses of all sizes.",
+        tech:" Sign-in | Sign-up | Integrations page | Why harvest page | Features page | Customers page"+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ Html | CSS | JavaScript | Github "+"\n"+"\n"+"Areas of responsibility  :-"+"\n"+"↪ Integrations page"+"\n"+"\n"+"A collaborative project Developed within 4 days, with a team of 5.",
+        deploy:"https://spontaneous-crumble-e389b6.netlify.app/",
     }
-    // {
-    //     name:"",
-    //     img:"",
-    //     feat:"",
-    //     tech:""
-    // },
-    // {
-    //     name:"",
-    //     img:"",
-    //     feat:"",
-    //     tech:""
-    // }
 ]
 
 let display=()=>{
@@ -41,57 +32,28 @@ let display=()=>{
         let div3=document.createElement("div")
         let div4=document.createElement("div")
         let h1=document.createElement("h1")
+        let l1=document.createElement("hr");
+        let l2=document.createElement("hr");
+        let a=document.createElement("a")
+        a.src=el.deploy
         h1.innerText=el.name;
         let h2=document.createElement("h2")
         h2.innerText=el.feat;
-        let h3=document.createElement("h2")
-        h3.innerText="Techstack  "+"\n"+el.tech;
+        let h3=document.createElement("h3")
+        h3.innerText="Features :-"+"\n"+"↪"+el.tech;
         let img=document.createElement("img")
         img.src=el.URL;
         let btn1=document.createElement("button")
         btn1.innerText="GitHub"
         let btn2=document.createElement("button")
         btn2.innerText="Deploy"
+        btn2.style.textAnchor=el.deploy
         div1.append(h1)
         div2.append(img)
-        div3.append(h2,h3)
+        div3.append(h2,l1,h3,l2)
         div4.append(btn1,btn2)
         div.append(div1,div2,div3,div4)
         par.append(div)
     });
 }
 display();
-
-
-let image=[
-    "https://static.thcdn.com/images/xlarge/webp/widgets/121-us/04/0712-STDCRE-38046-SS-MH-Photography-July-22-REMAINING-BATCHING-Shot2-1180x450-021804.png",
-    "https://static.thcdn.com/images/xlarge/webp/widgets/121-us/16/0701-STDCRE-38244-SS-BME-Skinstore-July-4-Assets-Shot_01-1180x450-095516.jpg",
-    "https://static.thcdn.com/images/xlarge/webp/widgets/121-us/38/1180x450-082838.jpg",
-    "https://static.thcdn.com/images/xlarge/webp/widgets/121-us/55/0712_THG0034801_SS_JUL_22_SHOT_03_1180x450-061455.jpg"
-    ]
-
-    let leftbtn=document.querySelector("#lbtn")
-    let rightbtn=document.querySelector("#rbtn")
-    let imagestate=0;
-    let crau=document.querySelector("#crauser")
-
-    rightbtn.addEventListener("click",function(){
-        imagestate++;
-        if(imagestate===image.length){
-            imagestate=0;
-        }
-        crau.src=image[imagestate];
-    })
-
-    leftbtn.addEventListener("click",function(){
-        imagestate--;
-        if(imagestate<0){
-            imagestate=image.length-1;
-        }
-        crau.src=image[imagestate];
-    })
-
-
-    let dis=(x)=>{
-        x++
-    }
