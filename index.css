@@ -9,24 +9,32 @@ body{
   margin: auto;
 
 }
+/* body{
+  background-color: rgb(179, 125, 125);
+} */
 #navbar{
-  height: 80px;
-  background-color: rgba(128,97,140,0.7);
+  /* height: 80px; */
+  /* background-color: rgba(128,97,140,0.7); */
+  background-color: rgb(128,97,140);
   margin-bottom: 40px;
   border-radius: 20px;
   text-align: center;
-  align-items: center;
-  margin: auto;
+  align-items: center; 
+   margin: auto;
   display:block;
   position: sticky;
   top:0;
+  justify-content: space-evenly;
 }
 #navbar button{
   padding: 10px,30px;
   font-weight: bold;
   font-size: larger;
-  /* margin-top: 500px; */
 }
+/* #navbar {
+  margin: auto;
+  justify-content: center;
+} */
 #hand{
   width:60px;
 }
@@ -72,7 +80,7 @@ h1{
   border-radius:20px;
   width: 60%;
   margin: auto;
-  height: 150px;
+  height: auto;
   margin-top: 20px;
 }
 #under img{
@@ -243,9 +251,9 @@ h1{
   text-align: justify;
   width: 90%;
 }
-#main{
+/* #main{
   background-image: url(https://img1.picmix.com/output/stamp/normal/5/4/6/5/1755645_3a150.gif);
-}
+} */
 #about div p{
   color: white;
   margin: auto;
@@ -260,3 +268,4 @@ h1{
 h2,h3{
   color: white;
 }
+
