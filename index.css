@@ -280,27 +280,25 @@ h2,h3{
     margin: auto;
     background-color: rgb(190, 181, 181);
   }
+  #navbar{
+    width:170%;
+    display: none;
+  }
   #about hr{
       width:90%;
   }
   #star{
     display: block;
     margin: auto;
-    /* margin-left:20%;
-    margin-right:20%; */
 }
-#main{
-  width:140%;
-  border: 0;
-}
-#main img{
+#main,#main img{
   height: 300px;
   width: 300px;
-
+  border-radius: 30%;
 }
 #low{
   width:250%;
-
+  margin: auto;
 }
 #low button{
   margin: auto;
@@ -321,7 +319,7 @@ h2,h3{
   font-size:40px;
 }
 #about div {
-  background-color: rgb(128,97,140);
+  background-color:rgb(190, 181, 181);
   width: 90%;
   margin: auto;
   height:auto;
@@ -364,17 +362,13 @@ h2,h3{
 }
 #low{
   margin: auto;
+  margin-left:-10%;
 }
-#web button{
-  margin: auto;
-  border-radius:10px;
-  margin-left:25%;
-  font-size:25px;
-  font-weight: bold;
-  border: 0ch;
-  justify-content: space-evenly;
- 
+#web{
+  margin:auto;
 }
-
+#main{
+  margin:auto;
+}
 }
 /* =============Mobile View===================== */
