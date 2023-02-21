@@ -1,8 +1,8 @@
-#star,#about{
-  /*  */
-  /* text-align: center; */
-  /* background-image: url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif); */
-}
+/* #star,#about{
+
+  text-align: center; 
+  background-image: url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif); 
+} */
 
 body{
   background-image: url(https://thumbs.gfycat.com/AdmiredDigitalHarrier-size_restricted.gif);
@@ -20,7 +20,7 @@ body{
   border-radius: 20px;
   text-align: center;
   align-items: center; 
-   margin: auto;
+  margin: auto;
   display:block;
   position: sticky;
   top:0;
@@ -31,10 +31,6 @@ body{
   font-weight: bold;
   font-size: larger;
 }
-/* #navbar {
-  margin: auto;
-  justify-content: center;
-} */
 #hand{
   width:60px;
 }
@@ -95,7 +91,7 @@ h1{
     max-width: 100%;
     display: block;
   } 
-  #about h1,#edu h1,#skill h1,#project h1,#contact h1,#demo >h1{
+  #about h1,#edu h1,#skill h1,#project h1,#contact h1,#demo >h1,#cal h1{
     margin-left: -600px;
     font-size:50px;
   }
@@ -132,6 +128,7 @@ h1{
   button:hover,#web img:hover{
     color: rgb(246, 251, 251);
     background-color:rgb(128,97,140) ;
+    border: 2px solid white;
   }
   span{
     color: rgb(255,200,61);
@@ -186,7 +183,6 @@ h1{
 
   #cr{
     width: 100%;
-    /* position: relative; */
 }
 #cr>img{
     width: 100%;
@@ -228,7 +224,9 @@ h1{
 #demo>div,#demo img{
   width:630px;
   margin: auto;
+  margin-top:50px;
 }
+
 
 #demo button{
   margin: auto;
@@ -251,9 +249,6 @@ h1{
   text-align: justify;
   width: 90%;
 }
-/* #main{
-  background-image: url(https://img1.picmix.com/output/stamp/normal/5/4/6/5/1755645_3a150.gif);
-} */
 #about div p{
   color: white;
   margin: auto;
@@ -268,4 +263,102 @@ h1{
 h2,h3{
   color: white;
 }
+#cal>div{
+  width:65%;
+  background-color: rgb(128,97,140);
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.left{
+  margin-left:15%;
+}
+/* =============Mobile View===================== */
+@media all and (min-width: 320px) and (max-width: 480px){
+  body{
+    background-image: url(#);
+    width:100%;
+    margin: auto;
+    background-color: rgb(190, 181, 181);
+  }
+  #about hr{
+      width:90%;
+  }
+  #star{
+    display: block;
+    margin: auto;
+    margin-left:25%;
+    margin-right:25%;
+}
+#main{
+  width:140%;
+  
+}
+#main img{
+  height: 300px;
+  width: 300px;
 
+}
+#low{
+  width:250%;
+
+}
+#low button{
+  margin: auto;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+#low h1{
+  font-size:auto;
+}
+#about,#edu,#demo,#skill,#contact,#cal{
+  width:180%;
+}
+#about h1,#edu h1,#skill h1,#demo h1,#contact h1,#demo >h1,#cal h1{
+  margin-left: 20px;
+  font-size:40px;
+}
+#about div {
+  background-color: rgb(128,97,140);
+  width: 90%;
+  margin: auto;
+  height:auto;
+  border-radius: 20px;
+}
+#skill{
+  margin: auto;
+}
+#skill div{ 
+  grid-template-columns: repeat(2,1fr);
+  margin-left: auto;
+}
+#demo div{
+  width:85%;
+  margin: auto;
+}
+#demo img{
+  width:100%;
+  height:300px;
+}
+#contact{
+  margin: auto;
+  
+}
+#contact div{
+  width: 75%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+#cal>div{
+  width:85%;
+  background-color:rgb(149, 148, 148);
+}
+
+#demo>div{
+  margin-top:40px;
+}
+#mobile img{
+  margin: auto;
+}
+
+}
+/* =============Mobile View===================== */
