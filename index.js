@@ -51,6 +51,7 @@ let display=()=>{
         div1.append(h1)
         div2.append(img)
         div3.append(h2,l1,h3,l2)
+        a.append(btn1)
         div4.append(btn1,btn2)
         div.append(div1,div2,div3,div4)
         par.append(div)
@@ -58,17 +59,7 @@ let display=()=>{
 }
 display();
 
-$(document).ready(()=>{
-    $(window).scroll(()=>{
-        if(this.scrollY>20){
-            $("#navbar").addClass("sticky");
-        }else{
-            $("#navbar").removeClass("sticky");
-        }
-    })
-})
-
-
+//+++++++++++++++++++++++++++++++++vavbar
 const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
@@ -94,3 +85,4 @@ function show(){
 function close(){
     mainMenu.style.top = '-100%';
 }
+//+++++++++++++++++++++++++++++++++vavbar

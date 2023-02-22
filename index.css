@@ -130,7 +130,7 @@ h1{
     background-color:rgb(128,97,140) ;
     border: 2px solid white;
   }
-  span{
+  #low span{
     color: rgb(255,200,61);
   }
   #skill{
@@ -141,7 +141,6 @@ h1{
   }
   #skill img{
     width:120px;
-    /* border-radius: 50%; */
   }
   #skill div{ 
     display:grid;
@@ -290,10 +289,7 @@ h2,h3{
     margin: auto;
     background-color: rgb(190, 181, 181);
   }
-  #navbar{
-    width:170%;
-    display: none;
-  }
+
   #about hr{
       width:90%;
   }
@@ -307,7 +303,10 @@ h2,h3{
   border-radius: 30%;
 }
 #main{
-  margin-left:58%;
+  margin-top:20%;
+  margin-left:50%;
+  height: 310px;
+  width: 310px;
 }
 #web{
   margin: auto;
@@ -316,12 +315,15 @@ h2,h3{
 #web button{
   margin-top: 20px;
   font-size:20px;
+  margin-left:-70%;
+  
 }
 #low h1{
-  width: 100%;
+  width: 130%;
   font-size: 30px;
   margin: auto;
-  margin-left:45%;
+  margin-left:30%;
+  margin-top:10px;
 }
 #about,#edu,#demo,#skill,#contact,#cal{
   width:180%;
