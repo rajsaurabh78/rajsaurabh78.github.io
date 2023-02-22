@@ -4,21 +4,21 @@ let obj=[
         name:"SkinStore Clone",
         URL:"https://d1gzz21cah5pzn.cloudfront.net/img/websites/s/ski/skinstore.com-desktop@2x.1652819931.jpg",
         feat:" "+"\n"+"Skinstore is an online retailer that sells premium beauty, clinical skincare, and luxury spa product.",
-        tech:" Sign-in | Sign-up | Cart page | Navbar | Footer "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ Html | CSS | JavaScript | Github "+"\n"+"\n"+"An individual project Developed within 4 days.",
+        tech:" Sign-in | Sign-up | Cart page | Navbar | Footer "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ HTML | CSS | JavaScript | Github "+"\n"+"\n"+"An individual project developed within 4 days.",
         deploy:"https://spontaneous-crumble-e389b6.netlify.app/",
     },
     {
         name:"Wrike Clone",
         URL:"https://management.org/wp-content/uploads/2022/03/Wrike-homepage-1024x483.png",
-        feat:" "+"\n"+"Wrike is an easy-to-use tool for streamlining the internal project management and collaboration processes between team members, whether they're in the same office or separated by an ocean.",
-        tech:" Sign-in | Sign-up | Price page | Wrike Blog | Tour page | Help center page"+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ Html | CSS | JavaScript | Github "+"\n"+"\n"+"Areas of responsibility  :-"+"\n"+"↪ WrikeBlog page"+"\n"+"\n"+"A collaborative project Developed within 4 days, with a team of 5.",
+        feat:" "+"\n"+"Wrike is an easy-to-use tool for streamlining the internal project management and collaboration processes between team members.",
+        tech:" Sign-in | Sign-up | Price page | Wrike Blog | Tour page | Help center page"+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ HTML | CSS | JavaScript | Github "+"\n"+"\n"+"Area of responsibility  :-"+"\n"+"↪ WrikeBlog page"+"\n"+"\n"+"A collaborative project developed within 4 days, with a team of 5 members.",
         deploy:"https://spontaneous-crumble-e389b6.netlify.app/",
     },
     {
         name:"Get Harvest Clone",
         URL:"https://www.getharvest.com/hs-fs/hubfs/raw_assets/public/harvest-theme/images/homepage/test/spread.png?width=1323&name=spread.png",
         feat:" "+"\n"+"Harvest is a cloud-based time tracking tool designed for businesses of all sizes.",
-        tech:" Sign-in | Sign-up | Integrations page | Why harvest page | Features page | Customers page"+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ Html | CSS | JavaScript | Github "+"\n"+"\n"+"Areas of responsibility  :-"+"\n"+"↪ Integrations page"+"\n"+"\n"+"A collaborative project Developed within 4 days, with a team of 5.",
+        tech:" Sign-in | Sign-up | Integrations page | Why harvest page | Features page | Customers page"+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ HTML | CSS | JavaScript | Github "+"\n"+"\n"+"Area of responsibility  :-"+"\n"+"↪ Integrations page"+"\n"+"\n"+"A collaborative project developed within 4 days, with a team of 5 members.",
         deploy:"https://spontaneous-crumble-e389b6.netlify.app/",
     }
 ]

@@ -272,6 +272,16 @@ h2,h3{
 .left{
   margin-left:15%;
 }
+#mobile img:last-child{
+  margin: auto;
+  margin-top:50px;
+  margin-bottom:40px;
+  margin-left: 30%;
+  width:40%;
+}
+#mobile img{
+  margin: auto;
+}
 /* =============Mobile View===================== */
 @media all and (min-width: 320px) and (max-width: 480px){
   body{
@@ -296,20 +306,22 @@ h2,h3{
   width: 300px;
   border-radius: 30%;
 }
-#low{
-  width:250%;
-  margin: auto;
+#main{
+  margin-left:58%;
 }
-#low button{
+#web{
   margin: auto;
-  justify-content: space-evenly;
-  border-radius: 10px;
-  margin-left:5px;
+  width:10%;
+}
+#web button{
+  margin-top: 20px;
+  font-size:20px;
 }
 #low h1{
-  font-size:auto;
-  width: 80%;
+  width: 100%;
   font-size: 30px;
+  margin: auto;
+  margin-left:45%;
 }
 #about,#edu,#demo,#skill,#contact,#cal{
   width:180%;
@@ -360,14 +372,19 @@ h2,h3{
 #mobile img{
   margin: auto;
 }
+#mobile>img:last-child,#left{
+  margin: auto;
+  margin-top:20px;
+  margin-bottom:-10px;
+  margin-left:16%;
+  width:145%;
+}
+
 #low{
   margin: auto;
   margin-left:-10%;
 }
 #web{
-  margin:auto;
-}
-#main{
   margin:auto;
 }
 }
