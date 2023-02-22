@@ -140,13 +140,15 @@ h1{
     
   }
   #skill img{
-    width:120px;
+    width:130px;
+    border-radius: 50%;
+  
   }
   #skill div{ 
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     row-gap:50px;
-    column-gap:-100px;
+    column-gap:-50px;
     text-align: center;
     width: 80%;
     margin-left: 350px;
@@ -223,7 +225,7 @@ h1{
 #demo>div,#demo img{
   width:630px;
   margin: auto;
-  margin-top:50px;
+  margin-top:10px;
 }
 
 
@@ -346,6 +348,7 @@ h2,h3{
   grid-template-columns: repeat(2,1fr);
   margin-left: auto;
 }
+
 #demo div{
   width:85%;
   margin: auto;

@@ -14,6 +14,7 @@
     justify-content: space-between;
     position: sticky;
     top:0;
+    border-radius: 10px;
   }
   nav .mainMenu {
     display: flex;
