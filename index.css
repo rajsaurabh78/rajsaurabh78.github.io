@@ -1,35 +1,8 @@
-/* #star,#about{
-
-  text-align: center; 
-  background-image: url(https://i.pinimg.com/originals/8e/46/15/8e46150f790fbefe438d9c2767c32ad1.gif); 
-} */
 
 body{
   background-image: url(https://thumbs.gfycat.com/AdmiredDigitalHarrier-size_restricted.gif);
   margin: auto;
 
-}
-/* body{
-  background-color: rgb(179, 125, 125);
-} */
-#navbar{
-  /* height: 80px; */
-  /* background-color: rgba(128,97,140,0.7); */
-  background-color: rgb(128,97,140);
-  margin-bottom: 40px;
-  border-radius: 20px;
-  text-align: center;
-  align-items: center; 
-  margin: auto;
-  display:block;
-  position: sticky;
-  top:0;
-  justify-content: space-evenly;
-}
-#navbar button{
-  padding: 10px,30px;
-  font-weight: bold;
-  font-size: larger;
 }
 #hand{
   width:60px;
@@ -156,18 +129,13 @@ h1{
   #skill ,#contact,#project{
     margin-left: -100px;
   }
-  #navbar button{
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin: auto;
-    border-color: none;
+
+  nav span{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left:30px;
+    
   }
-  #navbar button{
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
   #contact img{
     width:80px;
 
@@ -284,7 +252,7 @@ h2,h3{
   margin: auto;
 }
 /* =============Mobile View===================== */
-@media all and (min-width: 320px) and (max-width: 480px){
+@media all and (min-width: 290px) and (max-width: 480px){
   body{
     background-image: url(#);
     width:100%;
