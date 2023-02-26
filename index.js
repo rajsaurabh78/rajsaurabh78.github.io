@@ -33,8 +33,6 @@ let display=()=>{
         let h1=document.createElement("h1")
         let l1=document.createElement("hr");
         let l2=document.createElement("hr");
-        let a=document.createElement("a")
-        a.src=el.deploy
         h1.innerText=el.name;
         let h2=document.createElement("h2")
         h2.innerText=el.feat;
@@ -72,6 +70,7 @@ let githubLin=(i)=>{
     window.location.href=github[i];
     display()
 }
+
 
 
 
