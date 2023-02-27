@@ -71,7 +71,7 @@
   @media all and (min-width: 290px) and (max-width: 480px) {
     nav{
         margin-top:-20px;
-        width:170%;
+        width:190%;
     } 
     nav .mainMenu {
       height: 100vh;
