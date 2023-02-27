@@ -1,7 +1,8 @@
 
 body{
-  background-image: url(https://thumbs.gfycat.com/AdmiredDigitalHarrier-size_restricted.gif);
+  /* background-image: url(https://thumbs.gfycat.com/AdmiredDigitalHarrier-size_restricted.gif); */
   margin: auto;
+  background-color: rgb(190, 181, 181);
 
 }
 #hand{
@@ -141,15 +142,21 @@ h1{
     width:80px;
 
   }
-  #contact img:hover{
-    size:100px ;
-  }
   #contact div{
     display: flex;
-    gap:50px;
-    margin-left:450px;
+    width:80%;
+    margin: auto;
   }
-
+  #contact div div{
+    display: block;
+    text-align: center;
+  }
+  #contact{
+    margin: auto;
+  }
+  a{
+    text-decoration: none;
+  }
 
   #cr{
     width: 100%;
@@ -251,7 +258,7 @@ h2,h3{
   margin: auto;
   margin-top:50px;
   margin-bottom:40px;
-  margin-left: 30%;
+  margin-left:30%;
   width:40%;
 }
 #mobile img{
@@ -280,7 +287,7 @@ h2,h3{
 }
 #main{
   margin-top:20%;
-  margin-left:50%;
+  margin-left:10%;
   height: 310px;
   width: 310px;
 }
@@ -291,7 +298,7 @@ h2,h3{
 #web button{
   margin-top: 20px;
   font-size:20px;
-  margin-left:-70%;
+  margin-left:-100%;
   
 }
 #low h1{
@@ -336,10 +343,14 @@ h2,h3{
   
 }
 #contact div{
-  width: 75%;
-  margin: auto;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
+/* #contact div{
+  display: flex;
+  width:30%;
+  margin: auto;
+} */
 #cal>div{
   width:85%;
   background-color:rgb(149, 148, 148);
