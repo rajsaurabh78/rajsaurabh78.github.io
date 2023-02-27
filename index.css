@@ -105,9 +105,6 @@ h1{
     background-color:rgb(128,97,140) ;
     border: 2px solid white;
   }
-  #low span{
-    color: rgb(255,200,61);
-  }
   #skill{
     
     border-radius: 20px;
@@ -264,6 +261,19 @@ h2,h3{
 #mobile img{
   margin: auto;
 }
+.animate-charcter {
+  background-image: linear-gradient(
+    -225deg,
+    #ff7b00 0%,
+    #ffa200 29%,
+    #fff301 67%,
+    #56c123 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
 /* =============Mobile View===================== */
 @media all and (min-width: 290px) and (max-width: 480px){
   body{
@@ -291,15 +301,14 @@ h2,h3{
   height: 310px;
   width: 310px;
 }
-#web{
+/* #web{
   margin: auto;
-  width:10%;
-}
-#web button{
+  text-align: center;
+  width: 70%;
+} */
+#low button{
   margin-top: 20px;
   font-size:20px;
-  margin-left:-100%;
-  
 }
 #low h1{
   width: 130%;
@@ -346,11 +355,6 @@ h2,h3{
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
-/* #contact div{
-  display: flex;
-  width:30%;
-  margin: auto;
-} */
 #cal>div{
   width:85%;
   background-color:rgb(149, 148, 148);

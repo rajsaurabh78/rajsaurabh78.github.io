@@ -71,7 +71,7 @@
   @media all and (min-width: 290px) and (max-width: 480px) {
     nav{
         margin-top:-20px;
-        width:190%;
+        width:180%;
     } 
     nav .mainMenu {
       height: 100vh;
@@ -108,11 +108,11 @@
   @media (max-width: 355px){
     nav{
         margin-top:-20px;
-        width:195%;
+        width:180%;
     } 
 }
 @media (min-width: 400px){
-    /* #main{
-        margin-left:60%;
-    }  */
+    #main{
+        margin-left:42%;
+    } 
 }
