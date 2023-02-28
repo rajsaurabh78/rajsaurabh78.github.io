@@ -66,10 +66,7 @@ h1{
     max-width: 100%;
     display: block;
   } 
-  #about h1,#edu h1,#skill h1,#project h1,#contact h1,#demo >h1,#cal h1{
-    margin-left: -600px;
-    font-size:50px;
-  }
+ 
   .read{
     display: flex;
     margin: auto;
@@ -274,6 +271,25 @@ h2,h3{
   -webkit-text-fill-color: transparent;
 
 }
+#cal h1,#skill h1{
+  margin-left: -50%;
+  font-size:50px;
+}
+#edu h1,#project h1,#contact h1,#demo >h1{
+  margin-left: -58%;
+  font-size:50px;
+}
+#about h1{
+  margin-left: -86%;
+  font-size:50px;
+}
+#contact h1{
+  margin-left: -63%;
+  font-size:50px;
+}
+/* #demo button:last-child{
+  
+} */
 /* =============Mobile View===================== */
 @media all and (min-width: 290px) and (max-width: 480px){
   body{
@@ -301,11 +317,6 @@ h2,h3{
   height: 310px;
   width: 310px;
 }
-/* #web{
-  margin: auto;
-  text-align: center;
-  width: 70%;
-} */
 #low button{
   margin-top: 20px;
   font-size:20px;
@@ -383,3 +394,142 @@ h2,h3{
 }
 }
 /* =============Mobile View===================== */
+/* =============Tab View===================== */
+@media all and (min-width: 290px) and (max-width: 1250px) {
+  nav{
+      margin-top:-20px;
+      width:180%;
+  } 
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    transition: top 1s ease 0s;
+    display: none;
+  }
+  nav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  nav .openMenu {
+    display: block;
+  }
+  nav .mainMenu li a:hover {
+    background: none;
+    color: rgb(255, 123, 0);
+  }
+  .icons i {
+    display: inline-block;
+    padding: 12px;
+  }
+}
+@media (max-width: 355px){
+  nav{
+      margin-top:-20px;
+      width:180%;
+  } 
+}
+/* @media (max-width: 400px){
+  #main{
+      margin-left:42%;
+  } 
+} */
+@media all and (min-width: 481px) and (max-width: 1250px){
+#star{
+  width: 90%;
+  margin-left:-10%;
+}
+
+#about hr{
+  width:70%;
+}
+#star{
+margin-left:25%;
+}
+
+
+
+#low button{
+margin-top: 20px;
+margin-left:210%;
+}
+#low h1{
+width: 130%;
+margin: auto;
+margin-left:30%;
+margin-top:10px;
+}
+#about,#edu,#demo,#skill,#contact,#cal{
+width:180%;
+}
+#about h1,#edu h1,#skill h1,#demo h1,#contact h1,#demo >h1,#cal h1{
+margin-left: 20px;
+font-size:40px;
+}
+#about div {
+background-color:rgb(190, 181, 181);
+width:70%;
+margin: auto;
+height:auto;
+border-radius: 20px;
+}
+#edu{
+width:150%;
+margin-left:15%;
+}
+#skill{
+width:120%;
+margin-left:25%;
+gap:50px;
+}
+#skill div{ 
+grid-template-columns: repeat(3,1fr);
+margin-left: auto;
+}
+
+#contact{
+margin: auto;
+
+}
+#contact div{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+#cal>div{
+width:45%;
+background-color:rgb(149, 148, 148);
+}
+
+#demo>div{
+margin-top:40px;
+}
+#mobile img{
+margin: auto;
+}
+#mobile>img:last-child,#left{
+margin: auto;
+margin-top:20px;
+margin-bottom:-10px;
+margin-left:50%;
+width:80%;
+}
+#web{
+margin:auto;
+}
+}
+@media all and (min-width: 481px) and (max-width:937px){
+#star{
+  display: block;
+}
+}
+
+/* =============tab View===================== */

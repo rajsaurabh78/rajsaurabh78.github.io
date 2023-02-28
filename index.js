@@ -21,16 +21,16 @@ let obj=[
       
     },
     {
-        name:"Student Registration System",
-        URL:"https://user-images.githubusercontent.com/108000350/213931898-5ba7c970-87ad-4c29-bdba-16af83da0d25.png",
+        name:"Autometed Student Registration System",
+        URL:"https://user-images.githubusercontent.com/108000350/221761754-f35f4e54-45e8-4948-8b76-a380e56f8e7e.png",
         feat:" "+"\n"+"This automated application help Institute to enroll students efficiently, create batches under a course and allocates the students in a batch.",
         tech:" Sign-in | Sign-up | Cart page | Navbar | Footer "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | MySql | JDBC | Github "+"\n"+"\n"+"An individual project developed within 4 days."
     },
     {
         name:"Online Customer Service Center",
         URL:"https://camo.githubusercontent.com/84f591541f458b2bbc86ec12377ed484055403e45711adafb257d22e1de91335/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d31735559675a327153496e795230636e5746586d434a57334b6369534e7038314e",
-        feat:" "+"\n"+"Service Today is an Online Customer Service Center management system which helps in storing and retrieving Information regarding Customer data, Issue data and Operator data. Customers can raise issues that they are facing and the Operators can provide Solution to their issues.",
-        tech:" Sign-in | Sign-up | Cart page | Navbar | Footer "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github "+"\n"+"\n"+"A Collabrative Project Consisting Of the 4 Developer within 4 days."
+        feat:" "+"\n"+"Online Customer Service Center managements system which helps in storing and retrieving Information regarding Customer data, Issue data and Operator data. Customers can raise issues that they are facing and the Operators can provide Solution to their issues.",
+        tech:" Sign-in | Sign-up | Cart page | Navbar | Footer "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github "+"\n"+"\n"+"Areas of responsibility  :-"+"\n"+"↪ Change Password | Forget Password | Email Password | Drow ER Digran & flow Diagram"+"\n"+"\n"+"A Collabrative Project Consisting Of the 4 Developer within 4 days."
     }
 ]
 
@@ -52,6 +52,9 @@ let display=()=>{
         h3.innerText="Features :-"+"\n"+"↪"+el.tech;
         let img=document.createElement("img")
         img.src=el.URL;
+        // if(i==2){
+        //     img.style.width="640px"
+        // }
         let btn1=document.createElement("button")
         btn1.innerText="GitHub"
         btn1.onclick=(()=>{
@@ -59,6 +62,9 @@ let display=()=>{
         })
         let btn2=document.createElement("button")
         btn2.innerText="Deploy"
+        if(i>=3){
+            btn2.innerText="Video"
+        }
         btn2.onclick=(()=>{
             deployLin(i);
         })
