@@ -68,4 +68,46 @@
     text-transform: uppercase;
   }
   
-  
+  @media all and (min-width: 290px) and (max-width: 1250px) {
+    nav{
+        margin-top:-20px;
+        width:180%;
+    } 
+    nav .mainMenu {
+      height: 100vh;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: rgb(0, 0, 0);
+      transition: top 1s ease 0s;
+      display: none;
+    }
+    nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    nav .openMenu {
+      display: block;
+    }
+    nav .mainMenu li a:hover {
+      background: none;
+      color: rgb(255, 123, 0);
+    }
+    .icons i {
+      display: inline-block;
+      padding: 12px;
+    }
+  }
+  @media (max-width: 355px){
+    nav{
+        margin-top:-20px;
+        width:180%;
+    } 
+  }
