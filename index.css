@@ -460,7 +460,7 @@ margin: auto;
 }
 #contact div{
 display: grid;
-grid-template-columns: repeat(3,1fr);
+grid-template-columns: repeat(4,1fr);
 }
 #cal>div{
 width:45%;
