@@ -387,11 +387,13 @@ h2,h3{
 
 #low{
   margin: auto;
-  margin-left:-10%;
 }
 #web{
   margin:auto;
+  justify-content: space-between;
+  margin-left:40%;
 }
+
 }
 /* =============Mobile View===================== */
 /* =============Tab View===================== */
