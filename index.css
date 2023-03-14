@@ -305,6 +305,10 @@ h2,h3{
   #star{
     display: block;
     margin: auto;
+    margin-left:10%;
+}
+#low div{
+  gap: 15%;;
 }
 #main,#main img{
   height: 300px;
@@ -313,19 +317,19 @@ h2,h3{
 }
 #main{
   margin-top:20%;
-  margin-left:10%;
-  height: 310px;
-  width: 310px;
+  margin-left:-7%;
+  /* height: 310px; */
+  /* width: 310px; */
 }
 #low button{
   margin-top: 20px;
-  font-size:20px;
+  /* font-size:20px; */
 }
 #low h1{
   width: 130%;
   font-size: 30px;
   margin: auto;
-  margin-left:30%;
+  margin-left:20%;
   margin-top:10px;
 }
 #about,#edu,#demo,#skill,#contact,#cal{
@@ -385,14 +389,14 @@ h2,h3{
   width:145%;
 }
 
-#low{
+/* #low{
   margin: auto;
 }
 #web{
   margin:auto;
   justify-content: space-between;
   margin-left:40%;
-}
+} */
 
 }
 /* =============Mobile View===================== */
