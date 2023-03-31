@@ -36,7 +36,7 @@ let obj=[
 
 let display=()=>{
     obj.forEach((el,i)=> {
-        let par=document.querySelector("#demo");
+        let par=document.querySelector("#projects");
         let div=document.createElement("div")
         let div1=document.createElement("div")
         let div2=document.createElement("div")
