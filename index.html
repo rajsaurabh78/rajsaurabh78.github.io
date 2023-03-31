@@ -14,16 +14,16 @@
   
 <body>
     <nav id="nav-menu">
-      <div class="logo"><span>▄︻デS̷ ̷K̷══━一</span></div>
+      <div class="logo"><span>S K</span></div>
       <div class="openMenu"><i class="fa fa-bars"></i></div>
       <ul class="mainMenu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
+          <li class="nav-link home"><a href="#home">Home</a></li>
+          <li class="nav-link about"><a href="#about">About</a></li>
           <li><a href="#edu">Education</a></li>
-          <li><a href="./img/Saurabh_Kumar_Resume.pdf" target="_blank"download="Saurabh-Kumar-Resume"  onclick=window.open("https://drive.google.com/file/d/1bmEXr3NFdC2kdX-Lcs6T9Rh-5-BLDu3S/view?usp=share_link")>Resume</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li id="resume-link-2" class="nav-link resume"><a href="./img/Saurabh_Kumar_Resume.pdf" target="_blank"download="Saurabh-Kumar-Resume"  onclick=window.open("https://drive.google.com/file/d/1bmEXr3NFdC2kdX-Lcs6T9Rh-5-BLDu3S/view?usp=share_link")>Resume</a></li>
+          <li class="nav-link skills"><a href="#skills">Skills</a></li>
+          <li class="nav-link projects"><a href="#projects">Projects</a></li>
+          <li class="nav-link contact"><a href="#contact">Contact</a></li>
           
           <div class="closeMenu"><i class="fa fa-times"></i></div>
           <span class="icons">
@@ -40,15 +40,15 @@
 
     <div id="star">
       <div id="home">
-            <img src="./img/pic1 (3).JPG" alt="">
+            <img class="home-img" src="./img/pic1 (3).JPG" alt="">
       </div>
       <div id="low">
             <!-- <h1>Hi , 👋</h1> -->
             <h1>Hi ,<img id="hand" src="./img/Hand_Wave.gif" alt=""></h1>
-            <h1>I am  <span  class="animate-charcter">SAURABH KUMAR </span></h1>
+            <h1 id="user-detail-name">I am  <span  class="animate-charcter">SAURABH KUMAR </span></h1>
             <h1> JAVA BACKEND DEVELOPER </h1>
             <div id="web">
-                  <a href="./img/Saurabh_Kumar_Resume.pdf"  target="_blank" download="Saurabh-Kumar-Resume" onclick=window.open("https://drive.google.com/file/d/1bmEXr3NFdC2kdX-Lcs6T9Rh-5-BLDu3S/view?usp=share_link")><button >Resume</button></a>
+                  <a id="resume-link-1" href="./img/Saurabh_Kumar_Resume.pdf"  target="_blank" download="Saurabh-Kumar-Resume" onclick=window.open("https://drive.google.com/file/d/1bmEXr3NFdC2kdX-Lcs6T9Rh-5-BLDu3S/view?usp=share_link")><button >Resume</button></a>
                   <a href="https://github.com/Rajsaurabh78"><button>GitHub</button></a>
                   <a href="#contact"><button>Contact</button></a>
             </div>
@@ -62,7 +62,7 @@
         <h1>ABOUT ME</h1>
         <hr>
         <div>
-          <p class="about section">An aspiring, creative, detail oriented and talented Java Backend Developer having proficiency to write user centric web applications. Looking for a job opportunity in a technology driven organization that would help to enhance one's technical knowledge, career and also exhibit one's skills.</p>
+          <p id="user-detail-intro" class="about section">An aspiring, creative, detail oriented and talented Java Backend Developer having proficiency to write user centric web applications. Looking for a job opportunity in a technology driven organization that would help to enhance one's technical knowledge, career and also exhibit one's skills.</p>
         </div>
         
     </div>
@@ -98,29 +98,29 @@
     <div id="skills">
       <h1>SKILLS</h1>
       <div>
-        <img src="./img/js.png" alt="">
-        <img src="./img/github-11-256.png" alt="">
-        <img src="./img/html.png" alt="">
-        <img src="./img/css.png" alt="">
-        <img src="./img/dsa.jpg" alt="">   
-        <img src="./img/java.png" alt="">
-        <img src="./img/mysql.png" alt="">
-        <img src="./img/spring.jpg" alt="">
-        <img src="./img/api.png" alt="">
-        <img src="./img/hibernate.jpg" alt="">
-        <img src="./img/maven-logo.jpg" alt="">
+        <img class="skills-card-img" src="./img/js.png" alt="">
+        <img class="skills-card-img" src="./img/github-11-256.png" alt="">
+        <img class="skills-card-img" src="./img/html.png" alt="">
+        <img class="skills-card-img" src="./img/css.png" alt="">
+        <img class="skills-card-img" src="./img/dsa.jpg" alt="">   
+        <img class="skills-card-img" src="./img/java.png" alt="">
+        <img class="skills-card-img" src="./img/mysql.png" alt="">
+        <img class="skills-card-img" src="./img/spring.jpg" alt="">
+        <img class="skills-card-img" src="./img/api.png" alt="">
+        <img class="skills-card-img" src="./img/hibernate.jpg" alt="">
+        <img class="skills-card-img" src="./img/maven-logo.jpg" alt="">
       </div>
     </div>
     <div id="skills">
       <h1>TOOLS</h1>
       <div>
-        <img src="./img/GitBashLogo.jpg" alt="">
-        <img src="./img/vs code.jpg" alt="">
-        <img src="./img/stslogo.png" alt="">
-        <img src="./img/Netlify-Logo-Vector.jpg" alt="">
-        <img src="./img/swagger.png" alt="">
-        <img src="./img/postman-tile.png" alt="">
-        <img src="./img/IntelliJ-IDEA.png" alt="">
+        <img class="skills-card-img" src="./img/GitBashLogo.jpg" alt="">
+        <img class="skills-card-img" src="./img/vs code.jpg" alt="">
+        <img class="skills-card-img" src="./img/stslogo.png" alt="">
+        <img class="skills-card-img" src="./img/Netlify-Logo-Vector.jpg" alt="">
+        <img class="skills-card-img" src="./img/swagger.png" alt="">
+        <img class="skills-card-img" src="./img/postman-tile.png" alt="">
+        <img class="skills-card-img" src="./img/IntelliJ-IDEA.png" alt="">
         
       </div>
     </div>
@@ -136,28 +136,28 @@
     <div class="calendar" id="git">
   </div>
 </div>
-    <div id="mobile">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rajsaurabh78&show_icons=true&locale=en&layout=compact" alt="rajsaurabh78" /></div>
-        <img id="left" class="left" src="https://github-readme-stats.vercel.app/api?username=rajsaurabh78&show_icons=true&locale=en" alt="rajsaurabh78" />
-        <img id="left" src="https://github-readme-streak-stats.herokuapp.com/?user=rajsaurabh78&" alt="rajsaurabh78" />
+    <div id="mobile" class="react-activity-calendar">
+        <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs?username=rajsaurabh78&show_icons=true&locale=en&layout=compact" alt="rajsaurabh78" /></div>
+        <img id="github-streak-stats" id="left" class="left" src="https://github-readme-stats.vercel.app/api?username=rajsaurabh78&show_icons=true&locale=en" alt="rajsaurabh78" />
+        <img id="github-stats-card" id="left" src="https://github-readme-streak-stats.herokuapp.com/?user=rajsaurabh78&" alt="rajsaurabh78" />
     </div>      
 
 <div id="contact">
   <h1>Contacts</h1>
   <div>
-      <div>
+      <div id="contact-github">
         <a href="https://github.com/Rajsaurabh78"><img src="./img/github-11-256.png" alt=""></a>
         <a href="https://github.com/Rajsaurabh78"><h3>GitHub</h3></a>
        </div>
-       <div>
+       <div id="contact-email">
             <a href="#contact"><img src="./img/white-email-icon-png-16.jpg" alt=""></a>
             <h3>rajsaurabh78@gmail.com</h3>
        </div>
-       <div>
+       <div id="contact-phone">
             <a href="#contact"><img src="./img/phone-white-icon-7.jpg" alt=""></a>
             <h3>+91 7631422549</h3>
        </div> 
-       <div>
+       <div id="contact-linkedin">
         <a href="https://www.linkedin.com/in/saurabh-kumar-375b81bb/"><img src="./img/in white.png" alt=""></a>
         <a href="https://www.linkedin.com/in/saurabh-kumar-375b81bb/"><h3>LinkedIn</h3></a>
        </div>

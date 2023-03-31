@@ -38,17 +38,21 @@ let display=()=>{
     obj.forEach((el,i)=> {
         let par=document.querySelector("#projects");
         let div=document.createElement("div")
+        div.className="project-card";
         let div1=document.createElement("div")
         let div2=document.createElement("div")
         let div3=document.createElement("div")
         let div4=document.createElement("div")
         let h1=document.createElement("h1")
+        h1.className="project-title"
         let l1=document.createElement("hr");
         let l2=document.createElement("hr");
         h1.innerText=el.name;
         let h2=document.createElement("h2")
+        h2.className="project-description"
         h2.innerText=el.feat;
         let h3=document.createElement("h3")
+        h3.className="project-tech-stack"
         h3.innerText="Features :-"+"\n"+"↪"+el.tech;
         let img=document.createElement("img")
         img.src=el.URL;
@@ -57,11 +61,13 @@ let display=()=>{
         // }
         let btn1=document.createElement("button")
         btn1.innerText="GitHub"
+        btn1.className="project-github-link"
         btn1.onclick=(()=>{
             githubLin(i);
         })
         let btn2=document.createElement("button")
         btn2.innerText="Deploy"
+        btn2.className="project-deployed-link"
         if(i>=3){
             btn2.innerText="Video"
         }
