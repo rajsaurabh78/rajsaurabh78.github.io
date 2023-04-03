@@ -31,6 +31,12 @@ let obj=[
         URL:"https://camo.githubusercontent.com/84f591541f458b2bbc86ec12377ed484055403e45711adafb257d22e1de91335/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d31735559675a327153496e795230636e5746586d434a57334b6369534e7038314e",
         feat:" "+"\n"+"Online Customer Service Center managements system which helps in storing and retrieving Information regarding Customer data, Issue data and Operator data. Customers can raise issues that they are facing and the Operators can provide Solution to their issues.",
         tech:" Sign-in | Sign-up | Cart page | Navbar | Footer "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github "+"\n"+"\n"+"Areas of responsibility  :-"+"\n"+"↪ Change Password | Forget Password | Email Password | Drow ER Digran & flow Diagram"+"\n"+"\n"+"A Collabrative Project Consisting Of the 4 Developer within 4 days."
+    },
+    {
+        name:"AdventureLand Village",
+        URL:"https://raw.githubusercontent.com/malonicester/stupendous-afterthought-9911/main/Adventureland-Village/Images/new.png?token=GHSAT0AAAAAAB4OLOUHBSBW6QCXQQP36WM6ZBKLGRQ",
+        feat:" "+"\n"+"AdventureLand Village is an amusement park that features various attractions, such as rides and games, as well as other events for entertainment purposes. A theme park is a type of amusement park that bases its structures and attractions around a central theme, often featuring multiple areas with different themes.",
+        tech:" Sign-in | Sign-up | Cart page | Navbar | Footer "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github "+"\n"+"\n"+"Areas of responsibility  :-"+"\n"+"↪ Add Customer | Delete Customer  | Get Customers | Update Customer | Drow ER Digran"+"\n"+"\n"+"A Collabrative Project Consisting Of the 5 Developer within 5 days."
     }
 ]
 
@@ -84,8 +90,8 @@ let display=()=>{
     });
 }
 display();
-let deploy=["https://spontaneous-crumble-e389b6.netlify.app/","https://profound-lamington-2fcd8c.netlify.app/index.html","https://vermillion-gumdrop-83c95e.netlify.app/index.html"]
-let github=["https://github.com/rajsaurabh78/precious-birds-1544","https://github.com/Durgesh9871/Wrike","https://github.com/farhaz1o/standing-frog-1055","https://github.com/rajsaurabh78/disagreeable-level-7374","https://github.com/RitishFG/abstracted-wren-623"]
+let deploy=["https://spontaneous-crumble-e389b6.netlify.app/","https://profound-lamington-2fcd8c.netlify.app/index.html","https://vermillion-gumdrop-83c95e.netlify.app/index.html","","","https://drive.google.com/file/d/1zdVGjT4g7alXfrtDUi4c8Osd479vwg5m/view?usp=share_link"]
+let github=["https://github.com/rajsaurabh78/precious-birds-1544","https://github.com/Durgesh9871/Wrike","https://github.com/farhaz1o/standing-frog-1055","https://github.com/rajsaurabh78/disagreeable-level-7374","https://github.com/RitishFG/abstracted-wren-623","https://github.com/malonicester/stupendous-afterthought-9911"]
 let deployLin=(i)=>{
     window.location.href=deploy[i];
     display()
