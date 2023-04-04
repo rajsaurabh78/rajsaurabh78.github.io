@@ -263,6 +263,9 @@ h2,h3{
 #mobile img{
   margin: auto;
 }
+#git2nd{
+  text-align: center;
+}
 .animate-charcter {
   background-image: linear-gradient(
     -225deg,
@@ -303,7 +306,9 @@ h2,h3{
     margin: auto;
     background-color: rgb(190, 181, 181);
   }
-
+  #git2nd,#mobile{
+    text-align: center;
+  }
   #about hr{
       width:90%;
   }
@@ -386,13 +391,13 @@ h2,h3{
 #mobile img{
   margin: auto;
 }
-#mobile>img:last-child,#left{
+/* #mobile>img:last-child,#left{
   margin: auto;
   margin-top:20px;
   margin-bottom:-10px;
   margin-left:16%;
   width:145%;
-}
+} */
 
 /* #low{
   margin: auto;
@@ -421,12 +426,12 @@ h2,h3{
 #about hr{
   width:70%;
 }
+#about p,#edu h2,#edu h3{
+  font-size: 30px;
+}
 #star{
 margin-left:25%;
 }
-
-
-
 #low button{
 margin-top: 20px;
 margin-left:210%;
@@ -491,17 +496,17 @@ background-color:rgb(149, 148, 148);
   width:1000px;
   height:650px;
 }
-#mobile img{
+/* #mobile img{
 margin: auto;
 
-}
-#mobile>img:last-child,#left{
+} */
+/* #mobile>img:last-child{
 margin: auto;
 margin-top:40px;
 margin-bottom:-10px;
 margin-left:50%;
 width:80%;
-}
+} */
 #web{
 margin:auto;
 }
@@ -524,11 +529,14 @@ margin:auto;
   margin: 20px 20px 30px 10px;
 
 }
+#git2nd,#mobile{
+  text-align: center;
 }
-@media all and (min-width: 481px) and (max-width:937px){
+}
+/* @media all and (min-width: 481px) and (max-width:937px){
 #star{
   display: block;
 }
-}
+} */
 
 /* =============tab View===================== */
