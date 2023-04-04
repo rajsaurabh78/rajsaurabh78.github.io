@@ -478,21 +478,51 @@ width:45%;
 background-color:rgb(149, 148, 148);
 }
 
+#projects div{
+  margin-top:40px;
+}
+
 #projects>div{
-margin-top:40px;
+  width:1100px;
+  margin: auto;
+  margin-top:40px;
+}
+#projects img{
+  width:1000px;
+  height:650px;
 }
 #mobile img{
 margin: auto;
+
 }
 #mobile>img:last-child,#left{
 margin: auto;
-margin-top:20px;
+margin-top:40px;
 margin-bottom:-10px;
 margin-left:50%;
 width:80%;
 }
 #web{
 margin:auto;
+}
+#projects h2{
+
+  font-size: 30px;
+}
+#projects h3{
+
+  font-size:30px;
+  margin-left:40px;
+  margin-right:0px;
+
+}
+#projects button{
+  padding: 20px 30px;
+  border-radius: 20px;
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 20px 20px 30px 10px;
+
 }
 }
 @media all and (min-width: 481px) and (max-width:937px){
