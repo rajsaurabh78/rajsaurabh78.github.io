@@ -13,7 +13,7 @@
   align-items: center;
   gap: 60px;
 }
-header {
+#head {
   border: 0.1px solid white;
   background-color: rgb(128,97,140);
   position: sticky;
@@ -54,7 +54,7 @@ li {
 
 }
 @media (max-width: 768px) {
-  header {
+  #head {
     padding: 0 0px;
   }
   .nav-menu {
