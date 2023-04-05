@@ -39,7 +39,7 @@ h1{
   color: white;
   text-align: center;
 }
-#about{
+#abouts{
   width: 70%;
   font-size:30px;
   margin: auto;
@@ -227,14 +227,14 @@ h1{
   font-size: 20px;
   width: 93%;
 }
-#about p{
+#abouts p{
   color: white;
   margin: auto;
   width: 93%;
   text-align: justify;
 
 }
-#about div {
+#abouts div {
   background-color: rgb(128,97,140);
   padding: 10px 10px;
   border-radius: 20px;
@@ -285,7 +285,7 @@ h2,h3{
   margin-left: -58%;
   font-size:50px;
 }
-#about h1{
+#abouts h1{
   margin-left: -86%;
   font-size:50px;
 }
@@ -304,7 +304,7 @@ h2,h3{
   #gitpic,#mobile{
     text-align: center;
   }
-  #about hr{
+  #abouts hr{
       width:90%;
   }
   #star{
@@ -334,14 +334,14 @@ h2,h3{
   margin-left:20%;
   margin-top:10px;
 }
-#about,#edu,#projects,#skills,#contact,#cal{
+#abouts,#edu,#projects,#skills,#contact,#cal{
   width:180%;
 }
-#about h1,#edu h1,#skills h1,#projects h1,#contact h1,#projects >h1,#cal h1{
+#abouts h1,#edu h1,#skills h1,#projects h1,#contact h1,#projects >h1,#cal h1{
   margin-left: 20px;
   font-size:40px;
 }
-#about div {
+#abouts div {
   background-color:rgb(190, 181, 181);
   width: 90%;
   margin: auto;
@@ -409,10 +409,10 @@ h2,h3{
   margin-left:-10%;
 }
 
-#about hr{
+#abouts hr{
   width:70%;
 }
-#about p,#edu h2,#edu h3{
+#abouts p,#edu h2,#edu h3{
   font-size: 30px;
 }
 #star{
@@ -428,14 +428,14 @@ margin: auto;
 margin-left:30%;
 margin-top:10px;
 }
-#about,#edu,#projects,#skills,#contact,#cal{
+#abouts,#edu,#projects,#skills,#contact,#cal{
 width:180%;
 }
-#about h1,#edu h1,#skills h1,#projects h1,#contact h1,#projects >h1,#cal h1{
+#abouts h1,#edu h1,#skills h1,#projects h1,#contact h1,#projects >h1,#cal h1{
 margin-left: 20px;
 font-size:40px;
 }
-#about div {
+#abouts div {
 background-color:rgb(190, 181, 181);
 width:70%;
 margin: auto;
