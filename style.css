@@ -1,0 +1,531 @@
+
+body{
+    margin: auto;
+    background-color: rgb(190, 181, 181);
+  
+  }
+  #hand{
+    width:60px;
+  }
+  #home img{
+    border-radius:50%;
+    border:4px solid rgb(128,97,140);
+    margin-left: 100px;
+    text-align: center;
+  
+  }
+  
+  #low{
+    margin: auto;
+  }
+  #low div{
+    display: flex;
+    gap: 100px;
+  }
+  #web img{
+    height:70px;
+  }
+  
+  #star{
+      display: flex;
+      margin-top: 40px;
+  }
+  #home img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+  }
+  h1{
+    color: white;
+    text-align: center;
+  }
+  #about{
+    width: 70%;
+    font-size:30px;
+    margin: auto;
+  }
+  #edu>div{
+    background-color: rgb(128,97,140);
+    border-radius:20px;
+    width: 60%;
+    margin: auto;
+    height: auto;
+    margin-top: 20px;
+  }
+  #under img{
+    border-radius: 50%;
+  }
+  #upper{
+    margin-left: 500px;
+    text-align: center;
+    margin-top: 120px;
+  }
+    picture {
+      max-width: 100%;
+      display: block;
+    } 
+   
+    .read{
+      display: flex;
+      margin: auto;
+    }
+    #edu div div {
+      margin-left:10px;
+    }
+    .read>:first-child{
+      margin-top:60px;
+    }
+    #project{
+      margin-top: 150px;
+      margin: auto;
+      
+    }
+    #cr{
+      margin-left: 350px;
+    }
+   
+    #low button{
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin-left:25%;
+      font-size:25px;
+      font-weight: bold;
+      border: 0ch;
+    }
+    #low h1{
+      font-size:40px;
+    }
+    button:hover,#web img:hover{
+      color: rgb(246, 251, 251);
+      background-color:rgb(128,97,140) ;
+      border: 2px solid white;
+    }
+    #skills{
+      
+      border-radius: 20px;
+      width: 100%;
+      
+    }
+    #skills img{
+      width:130px;
+      border-radius: 50%;
+    
+    }
+    #skills div{ 
+      display:grid;
+      grid-template-columns: repeat(4,1fr);
+      row-gap:50px;
+      column-gap:-50px;
+      text-align: center;
+      width: 80%;
+      margin-left: 350px;
+    }
+    #skills ,#contact,#project{
+      margin-left: -100px;
+    }
+  
+    nav span{
+      font-size: xx-large;
+      font-weight: bolder;
+      margin-left:30px;
+      
+    }
+    #contact img{
+      width:80px;
+  
+    }
+    #contact div{
+      display: flex;
+      width:80%;
+      margin: auto;
+    }
+    #contact div div{
+      display: block;
+      text-align: center;
+    }
+    #footer-section{
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    #contact{
+      margin: auto;
+    }
+    a{
+      text-decoration: none;
+    }
+  
+    #cr{
+      width: 100%;
+  }
+  #cr>img{
+      width: 100%;
+      height: 400px;
+      
+  }
+  #cr>h1{
+      position: absolute;
+      margin-top: 10px;
+  }
+  #cr>button{
+      position: absolute;
+      margin-top:13%;
+      background-color:rgba(128,97,140,0.3);
+      border: 0ch;
+      border-radius: 10px;
+      padding: 10px 20px;
+  }
+  #lbtn{
+    left: 10px;
+  }
+  #rbtn{
+    right: 10px;
+  }
+  #projects h3{
+    text-align: left;
+    font-size:20px;
+    margin-left:20px;
+    margin-right:20px;
+  
+  }
+  #projects>div{
+    background-color:rgb(128,97,140);
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    border: 1px solid;
+    
+  }
+  #projects>div{
+    width:630px;
+    margin: auto;
+    margin-top:40px;
+  }
+  #projects img{
+    width: 580px;
+    height: 250px;
+  }
+  
+  #projects button{
+    margin: auto;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: larger;
+    margin: 20px 10px 20px 0px;
+  
+  }
+  #projects hr{
+    margin-top:30px;
+  }
+  #projects{
+    text-align: center;
+  }
+  #projects h2{
+    margin: auto;
+    text-align: justify;
+    font-size: 20px;
+    width: 93%;
+  }
+  #about p{
+    color: white;
+    margin: auto;
+    width: 93%;
+    text-align: justify;
+  
+  }
+  #about div {
+    background-color: rgb(128,97,140);
+    padding: 10px 10px;
+    border-radius: 20px;
+  }
+  h2,h3{
+    color: white;
+  }
+  #cal>div{
+    width:65%;
+    background-color: rgb(128,97,140);
+    border: 2px solid white;
+    border-radius: 20px;
+  }
+  .left{
+    margin-left:15%;
+  }
+  #mobile img:last-child{
+    margin: auto;
+    margin-top:50px;
+    margin-bottom:40px;
+    margin-left:30%;
+    width:40%;
+  }
+  #mobile img{
+    margin: auto;
+  }
+  #gitpic{
+    text-align: center;
+  }
+  .animate-charcter {
+    background-image: linear-gradient(
+      -225deg,
+      #ff7b00 0%,
+      #ffa200 29%,
+      #fff301 67%,
+      #56c123 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+  #cal h1,#skills h1{
+    margin-left: -50%;
+    font-size:50px;
+  }
+  #edu h1,#project h1,#contact h1,#projects >h1{
+    margin-left: -58%;
+    font-size:50px;
+  }
+  #about h1{
+    margin-left: -86%;
+    font-size:50px;
+  }
+  #contact h1{
+    margin-left: -63%;
+    font-size:50px;
+  }
+  /* =============Mobile View===================== */
+  @media all and (min-width: 290px) and (max-width: 480px){
+    body{
+      background-image: url(#);
+      width:100%;
+      margin: auto;
+      background-color: rgb(190, 181, 181);
+    }
+    #gitpic,#mobile{
+      text-align: center;
+    }
+    #about hr{
+        width:90%;
+    }
+    #star{
+      display: block;
+      margin: auto;
+      margin-left:10%;
+  }
+  #low div{
+    gap: 15%;;
+  }
+  #home,#home img{
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+  }
+  #home{
+    margin-top:20%;
+    margin-left:15%;
+  }
+  #low button{
+    margin-top: 20px;
+  }
+  #low h1{
+    width: 130%;
+    font-size: 30px;
+    margin: auto;
+    margin-left:20%;
+    margin-top:10px;
+  }
+  #about,#edu,#projects,#skills,#contact,#cal{
+    width:180%;
+  }
+  #about h1,#edu h1,#skills h1,#projects h1,#contact h1,#projects >h1,#cal h1{
+    margin-left: 20px;
+    font-size:40px;
+  }
+  #about div {
+    background-color:rgb(190, 181, 181);
+    width: 90%;
+    margin: auto;
+    height:auto;
+    border-radius: 20px;
+  }
+  #skills{
+    margin: auto;
+  }
+  #skills div{ 
+    grid-template-columns: repeat(2,1fr);
+    margin-left: auto;
+  }
+  
+  #projects div{
+    width:85%;
+    margin: auto;
+  }
+  #projects img{
+    width:100%;
+    height:300px;
+  }
+  #contact{
+    margin: auto;
+    
+  }
+  #contact div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  #cal>div{
+    width:85%;
+    background-color:rgb(149, 148, 148);
+  }
+  
+  #projects>div{
+    margin-top:40px;
+  }
+  #mobile img{
+    margin: auto;
+  }
+  #gitpic{
+    margin-left:45%;
+  }
+  #gitpic img{
+    width: 150%;
+  }
+  #mobile{
+    margin-left:-75%;
+    width: 250%;
+    text-align: center;
+  }
+  }
+  /* =============Mobile View===================== */
+  /* =============Tab View===================== */
+  
+  /* @media (max-width: 400px){
+    #home{
+        margin-left:42%;
+    } 
+  } */
+  @media all and (min-width: 481px) and (max-width: 1250px){
+  #star{
+    width: 90%;
+    margin-left:-10%;
+  }
+  
+  #about hr{
+    width:70%;
+  }
+  #about p,#edu h2,#edu h3{
+    font-size: 30px;
+  }
+  #star{
+  margin-left:25%;
+  }
+  #low button{
+  margin-top: 20px;
+  margin-left:210%;
+  }
+  #low h1{
+  width: 130%;
+  margin: auto;
+  margin-left:30%;
+  margin-top:10px;
+  }
+  #about,#edu,#projects,#skills,#contact,#cal{
+  width:180%;
+  }
+  #about h1,#edu h1,#skills h1,#projects h1,#contact h1,#projects >h1,#cal h1{
+  margin-left: 20px;
+  font-size:40px;
+  }
+  #about div {
+  background-color:rgb(190, 181, 181);
+  width:70%;
+  margin: auto;
+  height:auto;
+  border-radius: 20px;
+  }
+  #edu{
+  width:180%;
+  }
+  #skills{
+  width:180%;
+  margin-left:-8%;
+  gap:50px;
+  }
+  #skills div{ 
+  grid-template-columns: repeat(4,1fr);
+  margin-left: auto;
+  }
+  
+  #contact{
+  margin: auto;
+  
+  }
+  #contact div{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  }
+  #cal>div{
+  width:45%;
+  background-color:rgb(149, 148, 148);
+  }
+  
+  #projects div{
+    margin-top:40px;
+  }
+  
+  #projects>div{
+    width:1100px;
+    margin: auto;
+    margin-top:40px;
+  }
+  #projects img{
+    width:1000px;
+    height:650px;
+  }
+  #web{
+  margin:auto;
+  }
+  #projects h2{
+  
+    font-size: 30px;
+  }
+  #projects h3{
+  
+    font-size:30px;
+    margin-left:40px;
+    margin-right:0px;
+  
+  }
+  #projects button{
+    padding: 20px 30px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 20px 20px 30px 10px;
+  
+  }
+  #gitpic{
+    margin-left:45%;
+  }
+  #gitpic img{
+    width: 150%;
+  }
+  #mobile{
+    margin-left:-75%;
+    width: 250%;
+    text-align: center;
+  }
+  }
+  @media all and (min-width: 481px) and (max-width:930px){
+  #home{
+    width:75%;
+    text-align: center;
+    margin-left: -25%;
+  }
+  }
+  
+  /* =============tab View===================== */
+  @media all and (min-width: 481px) and (max-width:774px){
+  #star{
+    display: block;
+  }
+  }

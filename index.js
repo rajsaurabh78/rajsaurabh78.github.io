@@ -123,11 +123,11 @@ menu_items.forEach(item => {
     })
 })
 
-function show(){
-    mainMenu.style.display = 'flex';
-    mainMenu.style.top = '0';
-}
-function close(){
-    mainMenu.style.top = '-100%';
-}
+// function show(){
+//     mainMenu.style.display = 'flex';
+//     mainMenu.style.top = '0';
+// }
+// function close(){
+//     mainMenu.style.top = '-100%';
+// }
 //+++++++++++++++++++++++++++++++++vavbar
