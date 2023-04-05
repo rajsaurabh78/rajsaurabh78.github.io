@@ -38,7 +38,7 @@
   nav .openMenu {
     font-size: 2rem;
     margin: 20px;
-    display: none;
+    /* display: none; */
     cursor: pointer;
   }
   nav .mainMenu .closeMenu,
@@ -85,7 +85,7 @@
       align-items: center;
       background: rgb(0, 0, 0);
       transition: top 1s ease 0s;
-      display: none;
+      /* display: none; */
     }
     nav .mainMenu .closeMenu {
       display: block;
