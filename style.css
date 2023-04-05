@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
   min-height: 70px;
 
   display: flex;
@@ -100,4 +100,4 @@ li {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-}
+} */
