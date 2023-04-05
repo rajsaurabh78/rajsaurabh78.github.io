@@ -44,7 +44,7 @@
   nav .mainMenu .closeMenu,
   .icons i {
     font-size: 2rem;
-    display: none;
+    /* display: none; */
     cursor: pointer;
   }
   .fa-facebook:hover {
