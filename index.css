@@ -1,6 +1,5 @@
 
 body{
-  /* background-image: url(https://thumbs.gfycat.com/AdmiredDigitalHarrier-size_restricted.gif); */
   margin: auto;
   background-color: rgb(190, 181, 181);
 
@@ -42,7 +41,6 @@ h1{
 }
 #about{
   width: 70%;
-  /* text-align: center; */
   font-size:30px;
   margin: auto;
 }
@@ -263,7 +261,7 @@ h2,h3{
 #mobile img{
   margin: auto;
 }
-#git2nd{
+#gitpic{
   text-align: center;
 }
 .animate-charcter {
@@ -295,9 +293,6 @@ h2,h3{
   margin-left: -63%;
   font-size:50px;
 }
-/* #projects button:last-child{
-  
-} */
 /* =============Mobile View===================== */
 @media all and (min-width: 290px) and (max-width: 480px){
   body{
@@ -306,7 +301,7 @@ h2,h3{
     margin: auto;
     background-color: rgb(190, 181, 181);
   }
-  #git2nd,#mobile{
+  #gitpic,#mobile{
     text-align: center;
   }
   #about hr{
@@ -327,13 +322,10 @@ h2,h3{
 }
 #home{
   margin-top:20%;
-  margin-left:-7%;
-  /* height: 310px; */
-  /* width: 310px; */
+  margin-left:15%;
 }
 #low button{
   margin-top: 20px;
-  /* font-size:20px; */
 }
 #low h1{
   width: 130%;
@@ -391,23 +383,17 @@ h2,h3{
 #mobile img{
   margin: auto;
 }
-/* #mobile>img:last-child,#left{
-  margin: auto;
-  margin-top:20px;
-  margin-bottom:-10px;
-  margin-left:16%;
-  width:145%;
-} */
-
-/* #low{
-  margin: auto;
+#gitpic{
+  margin-left:45%;
 }
-#web{
-  margin:auto;
-  justify-content: space-between;
-  margin-left:40%;
-} */
-
+#gitpic img{
+  width: 150%;
+}
+#mobile{
+  margin-left:-75%;
+  width: 250%;
+  text-align: center;
+}
 }
 /* =============Mobile View===================== */
 /* =============Tab View===================== */
@@ -457,16 +443,15 @@ height:auto;
 border-radius: 20px;
 }
 #edu{
-width:150%;
-margin-left:15%;
+width:180%;
 }
 #skills{
-width:120%;
-margin-left:25%;
+width:180%;
+margin-left:-8%;
 gap:50px;
 }
 #skills div{ 
-grid-template-columns: repeat(3,1fr);
+grid-template-columns: repeat(4,1fr);
 margin-left: auto;
 }
 
@@ -496,17 +481,6 @@ background-color:rgb(149, 148, 148);
   width:1000px;
   height:650px;
 }
-/* #mobile img{
-margin: auto;
-
-} */
-/* #mobile>img:last-child{
-margin: auto;
-margin-top:40px;
-margin-bottom:-10px;
-margin-left:50%;
-width:80%;
-} */
 #web{
 margin:auto;
 }
@@ -529,14 +503,29 @@ margin:auto;
   margin: 20px 20px 30px 10px;
 
 }
-#git2nd,#mobile{
+#gitpic{
+  margin-left:45%;
+}
+#gitpic img{
+  width: 150%;
+}
+#mobile{
+  margin-left:-75%;
+  width: 250%;
   text-align: center;
 }
 }
-/* @media all and (min-width: 481px) and (max-width:937px){
+@media all and (min-width: 481px) and (max-width:930px){
+#home{
+  width:75%;
+  text-align: center;
+  margin-left: -25%;
+}
+}
+
+/* =============tab View===================== */
+@media all and (min-width: 481px) and (max-width:774px){
 #star{
   display: block;
 }
-} */
-
-/* =============tab View===================== */
+}
