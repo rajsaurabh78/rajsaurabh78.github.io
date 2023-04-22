@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 60px;
+  gap:20px;
 }
 #head {
   border: 0.1px solid white;
@@ -20,6 +20,18 @@
   box-shadow: rgba(116, 145, 173, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
   padding: 0px 40px;
   z-index: 100;
+}
+#head a{
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 05px 10px;
+}
+#head a:hover{
+  color: black;
+  border: 1px solid white;
+  background-color: white;
 }
 li {
   list-style: none;
@@ -49,6 +61,7 @@ li {
   font-size: 2.5rem;
   color: white;
 }
+
 @media (max-width: 768px) {
   #head {
     padding: 0 0px;
