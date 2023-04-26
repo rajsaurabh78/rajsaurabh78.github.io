@@ -83,7 +83,10 @@ h1{
   #cr{
     margin-left: 350px;
   }
- 
+  #resume-button-1{
+    background: none;
+    border: none;
+  }
   #low button{
     padding: 5px 10px;
     border-radius: 20px;
@@ -189,7 +192,7 @@ h1{
 
 }
 #projects>div{
-  background-color:rgb(128,97,140);
+  background-color:rgb(88, 67, 134);
   border-radius: 50px;
   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
   border: 1px solid;
@@ -293,6 +296,7 @@ h2,h3{
   margin-left: -63%;
   font-size:50px;
 }
+
 /* =============Mobile View===================== */
 @media all and (min-width: 290px) and (max-width: 480px){
   body{
@@ -403,12 +407,19 @@ h2,h3{
       margin-left:42%;
   } 
 } */
-@media all and (min-width: 481px) and (max-width: 1250px){
+
+@media all and (min-width: 481px) and (max-width: 1240px){
 #home{
   width: 90%;
   margin-left:-10%;
 }
-
+#head{
+  width: 170%;
+}
+#footer-section{
+  text-align: center;
+  width: 170%;
+}
 #aboutsec hr{
   width:70%;
 }

@@ -13,7 +13,7 @@
   gap:20px;
 }
 #head {
-  border: 0.1px solid white;
+  /* border: 0.1px solid white; */
   background-color: rgb(128,97,140);
   position: sticky;
   top: 0;
