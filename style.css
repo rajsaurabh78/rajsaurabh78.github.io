@@ -62,9 +62,10 @@ li {
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 774px) {
   #head {
     padding: 0 0px;
+    width: 180%;
   }
   .nav-menu {
     position: fixed;

@@ -431,12 +431,12 @@ margin-left:25%;
 }
 #low button{
 margin-top: 20px;
-margin-left:210%;
+margin-left:40%;
 }
 #low h1{
-width: 130%;
+width: 180%;
 margin: auto;
-margin-left:30%;
+margin-left:-18%;
 margin-top:10px;
 }
 #aboutsec,#edu,#projects,#skills,#contact,#cal{
@@ -462,7 +462,7 @@ margin-left:-8%;
 gap:50px;
 }
 #skills div{ 
-grid-template-columns: repeat(4,1fr);
+grid-template-columns: repeat(3,1fr);
 margin-left: auto;
 }
 
@@ -472,7 +472,7 @@ margin: auto;
 }
 #contact div{
 display: grid;
-grid-template-columns: repeat(4,1fr);
+grid-template-columns: repeat(3,1fr);
 }
 #cal>div{
 width:45%;
@@ -484,13 +484,13 @@ background-color:rgb(149, 148, 148);
 }
 
 #projects>div{
-  width:1100px;
+  width:850px;
   margin: auto;
   margin-top:40px;
 }
 #projects img{
-  width:1000px;
-  height:650px;
+  width:750px;
+  height:450px;
 }
 #web{
 margin:auto;
@@ -530,7 +530,7 @@ margin:auto;
 #star{
   width:75%;
   text-align: center;
-  margin-left: -25%;
+  margin-left: -10%;
 }
 }
 
@@ -539,4 +539,9 @@ margin:auto;
 #home{
   display: block;
 }
+}
+@media all and (min-width: 290px) and (max-width: 612px){
+  #head{
+    width: 200%;
+  }
 }
