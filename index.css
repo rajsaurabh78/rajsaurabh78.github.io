@@ -299,22 +299,22 @@ h2,h3{
 
 /* =============Mobile View===================== */
 @media all and (min-width: 290px) and (max-width: 480px){
-  body{
+body{
     background-image: url(#);
     width:100%;
     margin: auto;
     background-color: rgb(190, 181, 181);
-  }
-  #gitpic,#mobile{
-    text-align: center;
-  }
-  #aboutsec hr{
-      width:90%;
-  }
-  #home{
-    display: block;
-    margin: auto;
-    margin-left:10%;
+}
+#gitpic,#mobile{
+  text-align: center;
+}
+#aboutsec hr{
+  width:90%;
+}
+#home{
+  display: block;
+  margin: auto;
+  margin-left:10%;
 }
 #low div{
   gap: 15%;;
@@ -340,7 +340,7 @@ h2,h3{
 }
 #footer-section{
   text-align: center;
-  width: 200%;
+  width: 180%;
 }
 #aboutsec,#edu,#projects,#skills,#contact,#cal{
   width:180%;
@@ -399,8 +399,8 @@ h2,h3{
   width: 150%;
 }
 #mobile{
-  margin-left:-157%;
-  width: 380%;
+  margin-left:-30%;
+  /* width: 380%; */
   text-align: center;
 }
 }
