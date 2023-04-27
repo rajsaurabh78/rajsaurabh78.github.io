@@ -332,11 +332,15 @@ h2,h3{
   margin-top: 20px;
 }
 #low h1{
-  width: 130%;
+  width: 200%;
   font-size: 30px;
   margin: auto;
-  margin-left:20%;
+  margin-left:-10%;
   margin-top:10px;
+}
+#footer-section{
+  text-align: center;
+  width: 200%;
 }
 #aboutsec,#edu,#projects,#skills,#contact,#cal{
   width:180%;
@@ -388,14 +392,15 @@ h2,h3{
   margin: auto;
 }
 #gitpic{
-  margin-left:45%;
+  margin-left:15%;
+  width: 100%;
 }
 #gitpic img{
   width: 150%;
 }
 #mobile{
-  margin-left:-75%;
-  width: 250%;
+  margin-left:-157%;
+  width: 380%;
   text-align: center;
 }
 }
