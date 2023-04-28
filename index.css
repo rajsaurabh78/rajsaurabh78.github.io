@@ -14,7 +14,6 @@ body{
   text-align: center;
 
 }
-
 #low{
   margin: auto;
 }
@@ -254,15 +253,9 @@ h2,h3{
 .left{
   margin-left:15%;
 }
-#mobile img:last-child{
-  margin: auto;
-  margin-top:50px;
-  margin-bottom:40px;
-  margin-left:30%;
+#github-top-langs{
   width:40%;
-}
-#mobile img{
-  margin: auto;
+  margin: 10px 0 10px 0;
 }
 #gitpic{
   text-align: center;
@@ -388,9 +381,6 @@ body{
 #projects>div{
   margin-top:40px;
 }
-#mobile img{
-  margin: auto;
-}
 #gitpic{
   margin-left:15%;
   width: 100%;
@@ -398,11 +388,10 @@ body{
 #gitpic img{
   width: 150%;
 }
-#mobile{
-  margin-left:-30%;
-  /* width: 380%; */
-  text-align: center;
+#github-stats-card,#gitpic,#cal{
+  margin-bottom:20px;
 }
+
 }
 /* =============Mobile View===================== */
 /* =============Tab View===================== */
@@ -480,7 +469,7 @@ display: grid;
 grid-template-columns: repeat(3,1fr);
 }
 #cal>div{
-width:45%;
+width:75%;
 background-color:rgb(149, 148, 148);
 }
 
@@ -519,17 +508,22 @@ margin:auto;
   margin: 20px 20px 30px 10px;
 
 }
-#gitpic{
-  margin-left:45%;
-}
-#gitpic img{
-  width: 150%;
-}
-#mobile{
-  margin-left:-75%;
-  width: 250%;
+#gitsta{
+  margin: auto;
+  width: 125%;
   text-align: center;
 }
+#gitpic{
+  /* margin-top:40px; */
+  margin-left:20%;
+}
+#gitpic img{
+  width: 130%;
+}
+#github-stats-card,#gitpic,#cal{
+  margin-bottom:20px;
+}
+
 }
 @media all and (min-width: 481px) and (max-width:930px){
 #star{
