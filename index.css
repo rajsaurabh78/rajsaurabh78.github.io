@@ -14,11 +14,12 @@ body{
   text-align: center;
 
 }
-#low{
+#low,#star{
   margin: auto;
+  text-align: center;
 }
 #low div{
-  display: flex;
+  /* display: flex; */
   gap: 100px;
 }
 #web img{
@@ -289,9 +290,14 @@ h2,h3{
   margin-left: -63%;
   font-size:50px;
 }
-
+  #but{
+    display: flex;
+    text-align: center;
+    
+  }
 /* =============Mobile View===================== */
 @media all and (min-width: 290px) and (max-width: 480px){
+
 body{
     background-image: url(#);
     width:100%;
@@ -320,6 +326,10 @@ body{
 #star{
   margin-top:20%;
   margin-left:15%;
+}
+#but{
+  margin: auto;
+  margin-left:18%;
 }
 #low button{
   margin-top: 20px;
@@ -409,6 +419,10 @@ body{
 }
 #head{
   width: 170%;
+}
+#but{
+  margin: auto;
+  margin-left:10%;
 }
 #footer-section{
   text-align: center;
@@ -529,7 +543,7 @@ margin:auto;
 #star{
   width:75%;
   text-align: center;
-  margin-left: -10%;
+  /* margin-left: -10%; */
 }
 }
 
