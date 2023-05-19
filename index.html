@@ -9,15 +9,16 @@
     <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> -->
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./c.css">
 
   </head>
   
 <body>
   <header id="head">
-    <nav class="navbar" id="nav-menu">
+    <nav class="navbar" >
 
         <h1 class="nav-brand" id="home"> </h1>
-        <ul class="nav-menu">
+        <ul id="nav" class="nav">
             <li class="nav-item">
                 <a href="#star" class="nav-link home">Home</a>
             </li>
@@ -37,11 +38,11 @@
                 <a id="resume-link-1" onclick=window.open("https://drive.google.com/file/d/1__bZp0KyHz154PjsmDh56DSE7gUj0UA-/view?usp=share_link/") target="_blank" id="resume-link-1" href="./img/Saurabh_Kumar_Resume.pdf" download>Resume</a>
             </button>
         </ul>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
+        <div id="menu" onclick="flow()" class="hamburger">
+          <span id="bar1" class="bar"></span>
+          <span id="bar2" class="bar"></span>
+          <span id="bar3" class="bar"></span>
+      </div>
     </nav>
 </header>
 <!-- <div title="About" id="about" class="about section"> -->
