@@ -12,6 +12,9 @@
   z-index: 100;
   gap: 30px;
 }
+#head button{
+    font-size: medium;
+}
 #head a{
   font-size: 20px;
   color: white;
@@ -100,7 +103,7 @@ li {
       position: absolute;
       font-size: 30px;
       top: 0;
-      /* z-index: -100; */
+      z-index: -100;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -109,13 +112,14 @@ li {
   }
   }
   @media (min-width: 775px){
-      #nav {
-          display: flex;
-      }
+    #nav {
+        display: flex;
+    }
+    #nav{
+        margin-left:46%;
+    }
+    #nav li{
+        margin-right:30px;
+    }
   }
-  #nav{
-    margin-left:46%;
-  }
-  #nav li{
-    margin-right:30px;
-  }
+  
