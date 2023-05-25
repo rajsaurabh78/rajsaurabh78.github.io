@@ -90,7 +90,7 @@ let display=()=>{
     });
 }
 display();
-let deploy=["https://spontaneous-crumble-e389b6.netlify.app/","https://profound-lamington-2fcd8c.netlify.app/index.html/","https://vermillion-gumdrop-83c95e.netlify.app/index.html/","","","https://drive.google.com/file/d/1zdVGjT4g7alXfrtDUi4c8Osd479vwg5m/view?usp=share_link/"]
+let deploy=["https://spontaneous-crumble-e389b6.netlify.app/","https://profound-lamington-2fcd8c.netlify.app/index.html/","https://vermillion-gumdrop-83c95e.netlify.app/index.html/","","https://drive.google.com/file/d/1fzTYbUHO2_Jv2nxz43SR64aunwnHJ29u/view","https://drive.google.com/file/d/1zdVGjT4g7alXfrtDUi4c8Osd479vwg5m/view?usp=share_link/"]
 let github=["https://github.com/rajsaurabh78/precious-birds-1544/","https://github.com/Durgesh9871/Wrike/","https://github.com/farhaz1o/standing-frog-1055/","https://github.com/rajsaurabh78/disagreeable-level-7374/","https://github.com/RitishFG/abstracted-wren-623/","https://github.com/malonicester/stupendous-afterthought-9911/"]
 let deployLin=(i)=>{
     window.location.href=deploy[i];
