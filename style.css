@@ -18,14 +18,14 @@
 #head a{
   font-size: 20px;
   color: white;
-  border: 1px solid white;
+  border: 1px solid rgb(128,97,140);
   border-radius: 10px;
   padding: 05px 10px;
 }
 #head a:hover{
-  color: black;
+  /* color: black; */
   border: 1px solid white;
-  background-color: white;
+  background-color: rgb(128,97,140);
 }
 li {
   list-style: none;
