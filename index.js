@@ -37,6 +37,12 @@ let obj=[
         URL:"https://raw.githubusercontent.com/malonicester/stupendous-afterthought-9911/main/Adventureland-Village/Images/new.png?token=GHSAT0AAAAAAB4OLOUHBSBW6QCXQQP36WM6ZBKLGRQ",
         feat:" "+"\n"+"AdventureLand Village is an amusement park that features various attractions, such as rides and games, as well as other events for entertainment purposes. A theme park is a type of amusement park that bases its structures and attractions around a central theme, often featuring multiple areas with different themes.",
         tech:" Sign-in | Sign-up | Cart page | Navbar | Footer "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github "+"\n"+"\n"+"Areas of responsibility  :-"+"\n"+"↪ Add Customer | Delete Customer  | Get Customers | Update Customer | Drow ER Digran"+"\n"+"\n"+"A Collabrative Project Consisting Of the 5 Developer within 5 days."
+    },
+    {
+        name:"Student Registration System",
+        URL:"https://user-images.githubusercontent.com/108000350/259005234-ca8ff884-b661-4f40-bd58-c33b4b2ad62c.png",
+        feat:" "+"\n"+"This automated application help Institute to enroll students efficiently, create batches under a course and allocates the students in a batch.",
+        tech:" Sign-in | Sign-up | Cart page | Navbar | Footer "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github  "+"\n"+"\n"+"An individual project developed within 4 days."
     }
 ]
 
@@ -91,7 +97,7 @@ let display=()=>{
 }
 display();
 let deploy=["https://spontaneous-crumble-e389b6.netlify.app/","https://profound-lamington-2fcd8c.netlify.app/index.html/","https://vermillion-gumdrop-83c95e.netlify.app/index.html/","","https://drive.google.com/file/d/1fzTYbUHO2_Jv2nxz43SR64aunwnHJ29u/view","https://drive.google.com/file/d/1zdVGjT4g7alXfrtDUi4c8Osd479vwg5m/view?usp=share_link/"]
-let github=["https://github.com/rajsaurabh78/precious-birds-1544/","https://github.com/Durgesh9871/Wrike/","https://github.com/farhaz1o/standing-frog-1055/","https://github.com/rajsaurabh78/disagreeable-level-7374/","https://github.com/RitishFG/abstracted-wren-623/","https://github.com/malonicester/stupendous-afterthought-9911/"]
+let github=["https://github.com/rajsaurabh78/precious-birds-1544/","https://github.com/Durgesh9871/Wrike/","https://github.com/farhaz1o/standing-frog-1055/","https://github.com/rajsaurabh78/disagreeable-level-7374/","https://github.com/RitishFG/abstracted-wren-623/","https://github.com/malonicester/stupendous-afterthought-9911/,https://github.com/rajsaurabh78/Student-registration-system"]
 let deployLin=(i)=>{
     window.location.href=deploy[i];
     display()
