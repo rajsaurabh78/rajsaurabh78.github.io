@@ -44,6 +44,13 @@ let obj=[
         feat:" "+"\n"+"This automated application help Institute to enroll students efficiently, create batches under a course and allocates the students in a batch.",
         tech:" Sign-in | Sign-up | Cart page | Navbar | Footer "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github  "+"\n"+"\n"+"An individual project developed within 4 days."
     }
+    ,
+    {
+        name:"Online library Application",
+        URL:"https://user-images.githubusercontent.com/108000350/271763348-cc5b7aef-0052-4e2f-a67f-22d244baa393.jpg",
+        feat:" "+"\n"+"This application helps admin to enroll students efficiently, create floor under a library inside floor create shift , under a shift add many seats and allocates the seats in one or more shifts to students.",
+        tech:" Sign-in | and many methods "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github | Spring Security | HTML | CSS | JavaScript | S.T.S "+"\n"+"\n"+"An individual project and it is in devoliping phase."
+    }
 ]
 
 let display=()=>{
@@ -97,7 +104,7 @@ let display=()=>{
 }
 display();
 let deploy=["https://spontaneous-crumble-e389b6.netlify.app/","https://profound-lamington-2fcd8c.netlify.app/index.html/","https://vermillion-gumdrop-83c95e.netlify.app/index.html/","","https://drive.google.com/file/d/1fzTYbUHO2_Jv2nxz43SR64aunwnHJ29u/view","https://drive.google.com/file/d/1zdVGjT4g7alXfrtDUi4c8Osd479vwg5m/view?usp=share_link/"]
-let github=["https://github.com/rajsaurabh78/precious-birds-1544/","https://github.com/Durgesh9871/Wrike/","https://github.com/farhaz1o/standing-frog-1055/","https://github.com/rajsaurabh78/disagreeable-level-7374/","https://github.com/RitishFG/abstracted-wren-623/","https://github.com/malonicester/stupendous-afterthought-9911/","https://github.com/rajsaurabh78/Student-registration-system"]
+let github=["https://github.com/rajsaurabh78/precious-birds-1544/","https://github.com/Durgesh9871/Wrike/","https://github.com/farhaz1o/standing-frog-1055/","https://github.com/rajsaurabh78/disagreeable-level-7374/","https://github.com/RitishFG/abstracted-wren-623/","https://github.com/malonicester/stupendous-afterthought-9911/","https://github.com/rajsaurabh78/Student-registration-system","https://github.com/rajsaurabh78/LibrarySystem"]
 let deployLin=(i)=>{
     window.location.href=deploy[i];
     display()
