@@ -54,8 +54,10 @@ let obj=[
 ]
 
 let display=()=>{
+    let par=document.querySelector("#projects");
+    par.innerHTML=null;
     obj.forEach((el,i)=> {
-        let par=document.querySelector("#projects");
+        
         let div=document.createElement("div")
         div.className="project-card";
         let div1=document.createElement("div")
