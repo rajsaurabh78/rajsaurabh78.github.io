@@ -47,9 +47,9 @@ let obj=[
     ,
     {
         name:"Online library Application",
-        URL:"https://user-images.githubusercontent.com/108000350/271763348-cc5b7aef-0052-4e2f-a67f-22d244baa393.jpg",
+        URL:"https://private-user-images.githubusercontent.com/108000350/275474968-b43ba067-171c-4a5f-b935-ca971df6de74.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3NzMxODAsIm5iZiI6MTcwNjc3Mjg4MCwicGF0aCI6Ii8xMDgwMDAzNTAvMjc1NDc0OTY4LWI0M2JhMDY3LTE3MWMtNGE1Zi1iOTM1LWNhOTcxZGY2ZGU3NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwMVQwNzM0NDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iZjQ4MTAxNjI5MWE2MTk2YTcxZjFiYjBlM2U0NTFmNjdiY2ZhMDNjY2UzOGUyMGY2NmJmNWMzMTA4YTAwNTIzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.bNQbNwRjluqBrRCW8LmTxSk4QiPIFHFZ3NYLGD1ogxg",
         feat:" "+"\n"+"This application helps admin to enroll students efficiently, create floor under a library inside floor create shift , under a shift add many seats and allocates the seats in one or more shifts to students.",
-        tech:" Sign-in | and many methods "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github | Spring Security | HTML | CSS | JavaScript | S.T.S "+"\n"+"\n"+"An individual project and it is in devoliping phase."
+        tech:" Login | Admin and Student Authentication | Seat Allotment | CRUD operation for Library, Floor, Shift, Seat, Student and Admin | Update Profile and Other methods. "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github | Spring Security | HTML | CSS | JavaScript | S.T.S "+"\n"+"\n"+"An individual project and it is in devoliping phase."
     }
 ]
 
@@ -95,6 +95,10 @@ let display=()=>{
         btn2.onclick=(()=>{
             deployLin(i);
         })
+        if(i==7){
+            btn2.innerText="GitHub\nFrontend"
+            btn1.innerText="GitHub\nBackend"
+        }
         btn2.style.textAnchor=el.deploy
         div1.append(h1)
         div2.append(img)
@@ -105,8 +109,23 @@ let display=()=>{
     });
 }
 display();
-let deploy=["https://spontaneous-crumble-e389b6.netlify.app/","https://profound-lamington-2fcd8c.netlify.app/index.html/","https://vermillion-gumdrop-83c95e.netlify.app/index.html/","","https://drive.google.com/file/d/1fzTYbUHO2_Jv2nxz43SR64aunwnHJ29u/view","https://drive.google.com/file/d/1zdVGjT4g7alXfrtDUi4c8Osd479vwg5m/view?usp=share_link/"]
-let github=["https://github.com/rajsaurabh78/precious-birds-1544/","https://github.com/Durgesh9871/Wrike/","https://github.com/farhaz1o/standing-frog-1055/","https://github.com/rajsaurabh78/disagreeable-level-7374/","https://github.com/RitishFG/abstracted-wren-623/","https://github.com/malonicester/stupendous-afterthought-9911/","https://github.com/rajsaurabh78/Student-registration-system","https://github.com/rajsaurabh78/LibrarySystem"]
+let deploy=["https://spontaneous-crumble-e389b6.netlify.app/"
+            ,"https://profound-lamington-2fcd8c.netlify.app/index.html/"
+            ,"https://vermillion-gumdrop-83c95e.netlify.app/index.html/"
+            ,""
+            ,"https://drive.google.com/file/d/1fzTYbUHO2_Jv2nxz43SR64aunwnHJ29u/view"
+            ,"https://drive.google.com/file/d/1zdVGjT4g7alXfrtDUi4c8Osd479vwg5m/view?usp=share_link/"
+            ,""
+            ,"https://github.com/rajsaurabh78/LibrarySystemFrontend"
+        ]
+let github=["https://github.com/rajsaurabh78/precious-birds-1544/"
+            ,"https://github.com/Durgesh9871/Wrike/"
+            ,"https://github.com/farhaz1o/standing-frog-1055/"
+            ,"https://github.com/rajsaurabh78/disagreeable-level-7374/"
+            ,"https://github.com/RitishFG/abstracted-wren-623/"
+            ,"https://github.com/malonicester/stupendous-afterthought-9911/"
+            ,"https://github.com/rajsaurabh78/Student-registration-system"
+            ,"https://github.com/rajsaurabh78/LibrarySystem"]
 let deployLin=(i)=>{
     window.location.href=deploy[i];
     display()
