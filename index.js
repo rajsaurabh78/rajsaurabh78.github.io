@@ -49,7 +49,13 @@ let obj=[
         name:"Online library Application",
         URL:"https://private-user-images.githubusercontent.com/108000350/275474968-b43ba067-171c-4a5f-b935-ca971df6de74.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3NzMxODAsIm5iZiI6MTcwNjc3Mjg4MCwicGF0aCI6Ii8xMDgwMDAzNTAvMjc1NDc0OTY4LWI0M2JhMDY3LTE3MWMtNGE1Zi1iOTM1LWNhOTcxZGY2ZGU3NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwMVQwNzM0NDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iZjQ4MTAxNjI5MWE2MTk2YTcxZjFiYjBlM2U0NTFmNjdiY2ZhMDNjY2UzOGUyMGY2NmJmNWMzMTA4YTAwNTIzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.bNQbNwRjluqBrRCW8LmTxSk4QiPIFHFZ3NYLGD1ogxg",
         feat:" "+"\n"+"This application helps admin to enroll students efficiently, create floor under a library inside floor create shift , under a shift add many seats and allocates the seats in one or more shifts to students.",
-        tech:" Login | Admin and Student Authentication | Seat Allotment | CRUD operation for Library, Floor, Shift, Seat, Student and Admin | Update Profile and Other methods. "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github | Spring Security | HTML | CSS | JavaScript | S.T.S "+"\n"+"\n"+"An individual project and it is in devoliping phase."
+        tech:" Login | Admin and Student Authentication | Seat Allotment | CRUD operation for Library, Floor, Shift, Seat, Student and Admin | Update Profile and Other methods. "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github | Spring Security | HTML | CSS | JavaScript | S.T.S "+"\n"+"\n"+"An individual project devoliping in 15 days."
+    },
+    {
+        name:"E-commerce-Platform-project",
+        URL:"https://private-user-images.githubusercontent.com/108000350/301442411-70b9f2bf-6143-4c05-a797-8dcace706311.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3Nzc4MDQsIm5iZiI6MTcwNjc3NzUwNCwicGF0aCI6Ii8xMDgwMDAzNTAvMzAxNDQyNDExLTcwYjlmMmJmLTYxNDMtNGMwNS1hNzk3LThkY2FjZTcwNjMxMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwMVQwODUxNDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ZTVlNGUxOGE1YmRkY2IyYTc5MjIzMjVlMWJhMjJmNTkyNmUxNmU1ZjU2NjJiNzZlNGE4ZTdlODBhNzQzYjU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.gn7QMlmP8gWHxGr35Zt6IVVslTy1WsKfrus2frITuoQ",
+        feat:" "+"\n"+"This e-commerce application is in developing phase.",
+        tech:" . "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github | Spring Security | HTML | CSS | JavaScript | S.T.S "+"\n"+"\n"+"An individual project and it is in devoliping phase."
     }
 ]
 
@@ -96,8 +102,8 @@ let display=()=>{
             deployLin(i);
         })
         if(i==7){
-            btn2.innerText="GitHub\nFrontend"
-            btn1.innerText="GitHub\nBackend"
+            btn2.innerText="GitHub Frontend"
+            btn1.innerText="GitHub Backend"
         }
         btn2.style.textAnchor=el.deploy
         div1.append(h1)
