@@ -28,7 +28,7 @@ let obj=[
     },
     {
         name:"Online Customer Service Center",
-        URL:"https://camo.githubusercontent.com/84f591541f458b2bbc86ec12377ed484055403e45711adafb257d22e1de91335/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d31735559675a327153496e795230636e5746586d434a57334b6369534e7038314e",
+        URL:"https://camo.githubusercontent.com/167366595d788f81ed56f5e4e083e908829c2e14ce10b91374644b91d8d4bb09/68747470733a2f2f64726976652e676f6f676c652e636f6d2f75633f6578706f72743d766965772669643d31735559675a327153496e795230636e5746586d434a57334b6369534e7038314e",
         feat:" "+"\n"+"Online Customer Service Center managements system which helps in storing and retrieving Information regarding Customer data, Issue data and Operator data. Customers can raise issues that they are facing and the Operators can provide Solution to their issues.",
         tech:" Sign-in | Sign-up | Cart page | Navbar | Footer "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github "+"\n"+"\n"+"Areas of responsibility  :-"+"\n"+"↪ Change Password | Forget Password | Email Password | Drow ER Digran & flow Diagram"+"\n"+"\n"+"A Collabrative Project Consisting Of the 4 Developer within 4 days."
     },
@@ -47,13 +47,13 @@ let obj=[
     ,
     {
         name:"Online library Application",
-        URL:"https://private-user-images.githubusercontent.com/108000350/275474968-b43ba067-171c-4a5f-b935-ca971df6de74.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3NzMxODAsIm5iZiI6MTcwNjc3Mjg4MCwicGF0aCI6Ii8xMDgwMDAzNTAvMjc1NDc0OTY4LWI0M2JhMDY3LTE3MWMtNGE1Zi1iOTM1LWNhOTcxZGY2ZGU3NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwMVQwNzM0NDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iZjQ4MTAxNjI5MWE2MTk2YTcxZjFiYjBlM2U0NTFmNjdiY2ZhMDNjY2UzOGUyMGY2NmJmNWMzMTA4YTAwNTIzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.bNQbNwRjluqBrRCW8LmTxSk4QiPIFHFZ3NYLGD1ogxg",
+        URL:"https://private-user-images.githubusercontent.com/108000350/275474968-b43ba067-171c-4a5f-b935-ca971df6de74.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcyODM1NTgsIm5iZiI6MTcwNzI4MzI1OCwicGF0aCI6Ii8xMDgwMDAzNTAvMjc1NDc0OTY4LWI0M2JhMDY3LTE3MWMtNGE1Zi1iOTM1LWNhOTcxZGY2ZGU3NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwN1QwNTIwNThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01ZDJlNWQ2MDMxMDgxNDEyZDc2ODA3ZDA2MjM3OTM5OTBiNzQyMDlkZGZiMDA3YWMxMDg3YWFkNTRjMTIyNjIwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.2MPwlRoD2cqPdVbXTFGXLfdPBZx1BTRSkWzS-z55sXM",
         feat:" "+"\n"+"This application helps admin to enroll students efficiently, create floor under a library inside floor create shift , under a shift add many seats and allocates the seats in one or more shifts to students.",
         tech:" Login | Admin and Student Authentication | Seat Allotment | CRUD operation for Library, Floor, Shift, Seat, Student and Admin | Update Profile and Other methods. "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github | Spring Security | HTML | CSS | JavaScript | S.T.S "+"\n"+"\n"+"An individual project devoliping in 15 days."
     },
     {
         name:"E-commerce-Platform-project",
-        URL:"https://private-user-images.githubusercontent.com/108000350/301442411-70b9f2bf-6143-4c05-a797-8dcace706311.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY3Nzc4MDQsIm5iZiI6MTcwNjc3NzUwNCwicGF0aCI6Ii8xMDgwMDAzNTAvMzAxNDQyNDExLTcwYjlmMmJmLTYxNDMtNGMwNS1hNzk3LThkY2FjZTcwNjMxMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwMVQwODUxNDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ZTVlNGUxOGE1YmRkY2IyYTc5MjIzMjVlMWJhMjJmNTkyNmUxNmU1ZjU2NjJiNzZlNGE4ZTdlODBhNzQzYjU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.gn7QMlmP8gWHxGr35Zt6IVVslTy1WsKfrus2frITuoQ",
+        URL:"https://private-user-images.githubusercontent.com/108000350/301442411-70b9f2bf-6143-4c05-a797-8dcace706311.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcyODM2ODgsIm5iZiI6MTcwNzI4MzM4OCwicGF0aCI6Ii8xMDgwMDAzNTAvMzAxNDQyNDExLTcwYjlmMmJmLTYxNDMtNGMwNS1hNzk3LThkY2FjZTcwNjMxMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwN1QwNTIzMDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01ZGZjYWIxZjdlNjVjMWM4OTJmYzcyN2FhYTUwYjllYmYzOWFhN2VlZmZmMDI1NGNmODk3MTEwNTEyNmNiNDgzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ZP8Xfj1bcfObrNF3K8XrR4TulIT5Nt26EMfswDV2Q9Q",
         feat:" "+"\n"+"This e-commerce application is in developing phase.",
         tech:" . "+"\n"+"\n"+"Techstack  :-"+"\n"+"↪ JAVA | Spring | Spring Boot | Hibernate | MySql | Github | Spring Security | HTML | CSS | JavaScript | S.T.S "+"\n"+"\n"+"An individual project and it is in devoliping phase."
     }
@@ -123,6 +123,7 @@ let deploy=["https://spontaneous-crumble-e389b6.netlify.app/"
             ,"https://drive.google.com/file/d/1zdVGjT4g7alXfrtDUi4c8Osd479vwg5m/view?usp=share_link/"
             ,""
             ,"https://github.com/rajsaurabh78/LibrarySystemFrontend"
+            ,""
         ]
 let github=["https://github.com/rajsaurabh78/precious-birds-1544/"
             ,"https://github.com/Durgesh9871/Wrike/"
@@ -131,7 +132,9 @@ let github=["https://github.com/rajsaurabh78/precious-birds-1544/"
             ,"https://github.com/RitishFG/abstracted-wren-623/"
             ,"https://github.com/malonicester/stupendous-afterthought-9911/"
             ,"https://github.com/rajsaurabh78/Student-registration-system"
-            ,"https://github.com/rajsaurabh78/LibrarySystem"]
+            ,"https://github.com/rajsaurabh78/LibrarySystem"
+            ,"https://github.com/rajsaurabh78/E-commerce-Platform-project"
+        ]
 let deployLin=(i)=>{
     window.location.href=deploy[i];
     display()
