@@ -312,7 +312,7 @@ h2,h3{
   margin-left: -58%;
   font-size:50px;
 }
-#aboutsec h1,#experience h1{
+#aboutsec h1{
   margin-left: -86%;
   font-size:50px;
 }
@@ -324,6 +324,10 @@ h2,h3{
     display: flex;
     text-align: center;
     margin-left:-2%;
+  }
+
+  #experience h1{
+    margin-left: -80%;;
   }
 /* =============Mobile View===================== */
 @media all and (min-width: 290px) and (max-width: 480px){
