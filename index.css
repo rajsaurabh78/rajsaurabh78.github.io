@@ -1,8 +1,16 @@
-
+#logoi{
+  border-radius:50%;
+  width:04%;
+  margin: auto;
+  margin-left:-110px;
+}
 body{
   margin: auto;
   background-color: rgb(190, 181, 181);
 
+}
+.navbar{
+  margin-left: -20%;
 }
 /* #nav img{
  
@@ -45,7 +53,7 @@ h1{
   color: white;
   text-align: center;
 }
-#aboutsec{
+#aboutsec, #experience{
   width: 70%;
   font-size:30px;
   margin: auto;
@@ -206,7 +214,7 @@ h1{
   margin-top:40px;
 }
 
-#gitsta img,#cal>div,#projects>div,#skills img,#edu>div,#aboutsec div,#star>img,#but button,#projects button{
+#gitsta img,#cal>div,#projects>div,#skills img,#edu>div,#aboutsec div,#star>img,#but button,#projects button,#experience div{
   /* box-shadow: 10px 10px 5px 0px rgba(128,97,140,0.38);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(128,97,140,0.38);
   -moz-box-shadow: 10px 10px 5px 0px rgba(128,97,140,0.38); */
@@ -242,14 +250,23 @@ h1{
   font-size: 20px;
   width: 93%;
 }
-#aboutsec p{
+#aboutsec p,#experience p{
   color: white;
   margin: auto;
   width: 93%;
   text-align: justify;
 
 }
-#aboutsec div {
+/* #experience p{
+  color: white;
+  margin: auto;
+  width: 70%;
+  text-align: justify;
+
+} */
+
+
+#aboutsec div ,#experience div{
   background-color: rgb(128,97,140);
   padding: 10px 10px;
   border-radius: 20px;
@@ -291,11 +308,11 @@ h2,h3{
   margin-left: -50%;
   font-size:50px;
 }
-#edu h1,#project h1,#contact h1,#projects >h1{
+#edu h1,#project h1,#contact h1,#projects >h1, #experience h1{
   margin-left: -58%;
   font-size:50px;
 }
-#aboutsec h1{
+#aboutsec h1,#experience h1{
   margin-left: -86%;
   font-size:50px;
 }
@@ -358,14 +375,14 @@ body{
   text-align: center;
   width: 180%;
 }
-#aboutsec,#edu,#projects,#skills,#contact,#cal{
+#aboutsec,#edu,#projects,#skills,#contact,#cal,#experience{
   width:180%;
 }
-#aboutsec h1,#edu h1,#skills h1,#projects h1,#contact h1,#projects >h1,#cal h1{
+#aboutsec h1,#edu h1,#skills h1,#projects h1,#contact h1,#projects >h1,#cal h1 ,#experience h1{
   margin-left: 20px;
   font-size:40px;
 }
-#aboutsec div {
+#aboutsec div ,#experience div{
   background-color:rgb(190, 181, 181);
   width: 90%;
   margin: auto;
@@ -445,7 +462,7 @@ body{
 #aboutsec hr{
   width:70%;
 }
-#aboutsec p,#edu h2,#edu h3{
+#aboutsec p,#edu h2,#edu h3 ,#experience p{
   font-size: 30px;
 }
 #home{
@@ -461,14 +478,14 @@ margin: auto;
 margin-left:-18%;
 margin-top:10px;
 }
-#aboutsec,#edu,#projects,#skills,#contact,#cal{
+#aboutsec,#edu,#projects,#skills,#contact,#cal,#experience{
 width:180%;
 }
-#aboutsec h1,#edu h1,#skills h1,#projects h1,#contact h1,#projects >h1,#cal h1{
+#aboutsec h1,#edu h1,#skills h1,#projects h1,#contact h1,#projects >h1,#cal h1 ,#experience h1{
 margin-left: 20px;
 font-size:40px;
 }
-#aboutsec div {
+#aboutsec div ,#experience div{
 background-color:rgb(190, 181, 181);
 width:70%;
 margin: auto;
