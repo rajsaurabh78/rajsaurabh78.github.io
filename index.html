@@ -1,211 +1,894 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saurabh_Kumar_Portfolio</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
-    <link rel="stylesheet" href="./style.css">
 
+  <head>
+    <title>Saurabh Kumar</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="/img/school.png">
+    <link rel="stylesheet" href="css/nav.css">
+    <!-- font awesome -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.css"> -->
+    <!-- main css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+    <script src="https://kit.fontawesome.com/19ae1c0515.js" crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZPV4F3MSR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-BZPV4F3MSR');
+    </script>
   </head>
-  
-<body>
-  <header id="head">
-    <nav class="navbar" >
 
-        <h1 id="home"></h1>
-      <ul id="nav" class="nav"  onclick="flow()">
-      <!-- <img src="./img/s k logo.jpg" alt=""> -->
-        <li >
-            <a href="#star" class="nav-link home">Home</a>
-        </li>
-        <li >
-            <a href="#aboutsec" class="nav-link about">About </a>
-        </li>
-        <li >
-          <a href="#experience" class="nav-link experience">Experience </a>
-        </li>
-        <li >
-            <a href="#skills" class="nav-link skills">Skills</a>
-        </li>
-        <li >
-            <a href="#projects" class="nav-link projects">Projects</a>
-        </li>
-        <li >
-            <a href="#contact" class="nav-link contact">Contact</a>
-        </li>
-        <li>
-          <button title="RESUME" class="nav-link resume" id="resume-button-1">
-            <a id="resume-link-1" onclick=window.open("https://drive.google.com/file/d/1m7Ju6zsCxoMu4FwLRFSBFL0QahaPvWm6/view?usp=sharing") target="_blank" id="resume-link-1" href="./img/Saurabh_Kumar_Resume.pdf" download>Resume</a>
-          </button>
-        </li>
-      </ul>
-      <div id="menu" onclick="flow()" class="hamburger">
-        <span id="bar1" class="bar"></span>
-        <span id="bar2" class="bar"></span>
-        <span id="bar3" class="bar"></span>
+  <body>
+    <nav class="navbar navbar-expand-custom navbar-mainbg" id="first_nav">
+      <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <div class="hori-selector">
+            <div class="left"></div>
+            <div class="right"></div>
+          </div>
+          <li class="nav-item active ">
+            <a class="nav-link" href="#home "><i class="fa fa-house-user"></i>Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="#about"><i class="far fa-address-card"></i>About</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="#EXPERIENCE"><i class="fa fa-history"></i>Experience</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="#skills"><i class="fa fa-microchip"></i>Skills</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#project"><i class="fa fa-file-shield"></i>Project</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#contact"><i class="far fa-address-book"></i>Contact</a>
+          </li>
+
+
+        </ul>
+      </div>
+      <div> <a onclick="resume()" href="./img/Saurabh_Kumar_Resume.pdf" class=" btn-1  hover-in-shadow" download>Resume</a>
       </div>
     </nav>
-</header>
-<!-- <div title="About" id="about" class="about section"> -->
-  <title>About</title>
-    <div id="home">
-      <div id="star">
-            <img class="home-img" src="./img/DSC_1038.JPG" alt="">
-      </div>
-      <div id="low">
-            <!-- <h1>Hi , 👋</h1> -->
-            <div>
-              <h1>Hi ,<img id="hand" src="./img/Hand_Wave.gif" alt=""></h1>
-              <h1 id="user-detail-name">I am  <span  class="animate-charcter">SAURABH KUMAR </span></h1>
-              <h1> JAVA BACKEND DEVELOPER </h1>
-            </div>
-            <div id="but">
-                <a id="resume-link-2" href="./img/Saurabh_Kumar_Resume.pdf"  target="_blank" 
-                    download="Saurabh-Kumar-Resume" onclick=window.open("https://drive.google.com/file/d/1m7Ju6zsCxoMu4FwLRFSBFL0QahaPvWm6/view?usp=sharing")>   <button id="resume-button-2"> Resume</button></a>
-                <a href="https://github.com/Rajsaurabh78"><button>GitHub</button></a>
-                <a href="#contact"><button>Contact</button></a>
-            </div>
-            
-      </div>
-        
-        
-    </div>
-    
-    <div id="aboutsec" >
-        <h1>ABOUT ME</h1>
-        <hr>
-        <title>About</title>
-        <div >
-          <p id="user-detail-intro">Enthusiastic and motivated beginner Java backend developer eager to kickstart a career in software development. Proficient in core Java concepts and excited to apply my knowledge to real-world projects. Familiar with the Spring Framework and eager to deepen my understanding and gain hands-on experience in developing scalable and efficient backend systems. Committed to continuous learning and staying updated with the latest industry practices and technologies. Dedicated to delivering high-quality code and meeting project objectives. Seeking opportunities to grow and learn in a supportive and challenging environment.</p>
+
+    <!---------------------------------------Header---------------------------------------->
+
+    <header id="hamburger" class="header">
+      <div class="container">
+        <div class="row justify-content-between ">
+          <div class="hamburger-btn outer-shadow hover-in-shadow">
+            <span></span>
+          </div>
+
         </div>
-        
+      </div>
+    </header>
+    <!------------------------------Header--------end---------------------------------->
+
+
+    <!---------------------------------Navigatin---------start--------------------------->
+
+    <nav class="nav-menu">
+      <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+      <div class="nav-menu-inner">
+        <ul>
+          <li><a href="#home" class="link-item inner-shadow active" onclick="ScrollHome()">Home</a></li>
+          <li><a href="#about" class="link-item outer-shadow hover-in-shadow" onclick="ScrollAbout()">About</a></li>
+          <li><a href="#EXPERIENCE" class="link-item outer-shadow hover-in-shadow" onclick="ScrollAbout()">Experience</a></li>
+          <li><a href="#project" class="link-item outer-shadow hover-in-shadow" onclick="ScrollProject()">Projects</a>
+          </li>
+          <li><a href="#contact" class="link-item outer-shadow hover-in-shadow" onclick="ScrollContact()">Contact</a>
+          </li>
+          <li><a href="Saurabh_Kumar_Resume.pdf" class="link-item outer-shadow hover-in-shadow"
+              onclick="hideNavMenu() ,resume()" download>Download CV</a>
+          </li>
+      </div>
+
+      <!--------------------------Copyrigth-----text--------------------------------->
+
+      <p class="copyright-text">&copy;Created by SAURABH KUMAR | All rights reserved.</p>
+    </nav>
+    <div class="fade-out-effect">
+
     </div>
 
-    <div id="experience">
-        <h1>EXPERIENCE</h1>
-        <div >
-          <p>
-            I had the opportunity to work as an SDE Intern at PROMPT PERSONNEL PRIVATE LIMITED, where I contributed remotely to software development projects. During my internship, I managed various products and services, ensured timely project delivery by logging daily hours, and provided regular updates on my progress. Throughout this experience, I gained valuable hands-on experience with technologies such as Python, Flask, MySQL, and Git.
-          </p>
+    <!------------------------------------Navigatin----end---------------------------->
+
+
+
+    <!---------------------------------Home---Section----Start---------------------------->
+
+
+    <section class="home-section section active" id="home">
+
+      <!--------------------Effect---wrap----Start---------------------------->
+      <div class="effect-wrap">
+        <div class="effect effect-1"></div>
+        <div class="effect effect-2">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-    </div>
+
+        <div class="effect effect-3"></div>
+        <div class="effect effect-4"></div>
+
+        <div class="effect effect-5">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+      </div>
+
+      <!--------------------Effect---wrap----End---------------------------->
+
+
+      <div class="container">
+        <div class="row full-screen align-items-center">
+          <div class="home-text">
+            <p class="text-effect">Hello!</p>
+            <h2 class="text-effect">I'm Saurabh kumar,</h2>
+            <h1 class="text-effect">JAVA BACKEND DEVELOPER</h1>
+            <a href="#about" class=" btn-1 outer-shadow hover-in-shadow">More About Me</a>
+
+          </div>
+
+          <div class="home-img">
+            <div class="img-box ">
+              <img src="/img/programmer-doing-programming-3454631-2918520-removebg-preview2.png" class=""
+                alt="profile-pic">
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
-    <div id="edu">
-        <h1>EDUCATION</h1>
-        <div class="read">
-          <div><img src="./img/edu.svg" alt=""></div>
-          <div>
-                <h3>  05/2022 - Present </h3>
-                <h2>Java Back-end Developer</h2>
-                <h2>Masai School , Banguluru</h2>
-          </div>                    
-        </div>  
-        <div class="read">
-            <div><img src="./img/edu.svg" alt=""></div>
-          <div>
-                <h3>05/2015 - 03/20219</h3>
-                <h2>Bachelor of Science in Mathematics </h2>
-                <h2>B R A B U University , Muzaffarpur</h2>
-          </div>  
+    <!--------------------Home----End---------------------------->
+
+
+    <!--------------------About---Section----Start---------------------------->
+
+    <section class="about-section section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="main info">About me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box inner-shadow">
+              <img src="/img/DSC_1038 - Copy.JPG" alt="profile-pic" class="outer-shadow">
+            </div>
+            <!-------------------Social---Links------Start------------------->
+
+          </div>
+          <div class="about-info">
+            <p><span>Enthusiastic and motivated beginner Java backend developer eager to kickstart a career in software development. Proficient in core Java concepts and excited to apply my knowledge to real-world projects. Familiar with the Spring Framework and eager to deepen my understanding and gain hands-on experience in developing scalable and efficient backend systems. Committed to continuous learning and staying updated with the latest industry practices and technologies. Dedicated to delivering high-quality code and meeting project objectives. Seeking opportunities to grow and learn in a supportive and challenging environment.
+              </span>
+            </p>
+
+            <a onclick="resume()" href="./img/Saurabh_Kumar_Resume.pdf" class=" btn-1 outer-shadow hover-in-shadow"download>Resume
+            </a>
+            <div class="about-img">
+              <!-------------------Social---Links------Start------------------->
+              <div class="social-links">
+                
+                <a href="https://github.com/rajsaurabh78" target="_blank" class="outer-shadow hover-in-shadow"><i
+                    class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/saurabh-kumar-375b81bb/" target="_blank"
+                  class="outer-shadow hover-in-shadow">
+                  <i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/rajsaurabh78/?igsh=MWI2eW9qc2hiYXdiYg%3D%3D" target="_blank" class="outer-shadow hover-in-shadow"><i
+                    class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+        <section class="about-section section" id="EXPERIENCE">
+          <div class="container">
+            <div class="row">
+              <div class="section-title">
+                <h2>EXPERIENCE</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="tools outer-shadow">
+                <p>
+                  <span>
+                    I had the opportunity to work as an SDE Intern at PROMPT PERSONNEL PRIVATE LIMITED, where I contributed remotely to software development projects. During my internship, I managed various products and services, ensured timely project delivery by logging daily hours, and provided regular updates on my progress. Throughout this experience, I gained valuable hands-on experience with technologies such as Python, Flask, MySQL, and Git.
+                  </span>
+                </p>
+               </div>
               
+    
+              </div>
+        <!------------------------About-tab--start---------------------------->
+        <div class="row" id="skills">
+          <div class="about-tabs">
+            <span class="tab-item outer-shadow active" data-target=".skills">Skills & Tools</span>
+            <span class="tab-item" data-target=".github">Github</span>
+            <span class="tab-item" data-target=".education">Education</span>
+          </div>
         </div>
-    </div>
-  </div>
-  <!-- =================== -->
-    <div id="skills">
-      <h1>SKILLS</h1>
-      <div class="skills-card" >
-        <img class="skills-card-img" src="./img/java.png" alt="">
-        <img class="skills-card-img"  src="./img/js.png" alt="">
-        <img class="skills-card-img"  src="./img/python.jpg" alt="">
-        <img class="skills-card-img"   src="./img/html.png" alt="">
-        <img class="skills-card-img"  src="./img/css.png" alt="">
-        <img class="skills-card-img"  src="./img/mysql.png" alt="">
-        <img class="skills-card-img"   src="./img/spring.jpg" alt="">
-        <img class="skills-card-img"  src="./img/mongodb.png" alt="">
-        <img class="skills-card-img"  src="./img/maven-logo.jpg" alt="">
-        <img class="skills-card-img"  src="./img/flask.png" alt="">
-        <img class="skills-card-img"  src="./img/dsa.jpg" alt=""> 
-        <img class="skills-card-img" src="./img/github-11-256.png" alt="">
-        <img class="skills-card-img"  src="./img/api.png" alt="">
-        <img class="skills-card-img"  src="./img/hibernate.jpg" alt="">
-        <h1 class="skills-card-name" ></h1>
+        <!------------------------About-tab--end---------------------------->
+
+
+        <!------------------------Skill--start---------------------------->
+        <div class="row">
+          <div class="skills tab-content active">
+            <div class="row">
+              
+
+
+              <div class="timeline calendar_github">
+                <div class="row">
+                  <div class="section-title">
+                    <h2>Skills</h2>
+                  </div>
+                </div>
+                <div class="tools outer-shadow">
+                  <div>
+                    <img src="/img/html.svg" alt="HTML" width="60" height="60" />
+                    <h5>HTML</h5>
+                  </div>
+                  <div>
+                    <img src="/img/w3_css-icon.svg" alt="CSS" width="60" height="60" />
+                    <h5>CSS</h5>
+                  </div>
+                  <div>
+                    <img src="/img/java-original.svg" alt="Java" width="60" height="60" />
+                    <h5>Java</h5>
+                  </div>
+                  <div>
+                    <img src="/img/javascript-original.svg" alt="JavaScript" width="60" height="60" />
+                    <h5>JavaScript</h5>
+                  </div>
+                  
+                  <div>
+                    <img src="/img/pngwing.com.png" alt="python" width="60" height="60" />
+                    <h5>Python</h5>
+                  </div>
+                  <div>
+                    <img src="/img/mongodb.png" alt="Mongodb" width="60" height="60" />
+                    <h5>Mongodb</h5>
+                  </div>
+                  <div>
+                    <img src="/img/flask.png" alt="flask" width="60" height="60" />
+                    <h5>Flask</h5>
+                  </div>
+                  
+                  <div>
+                    <img src="/img/mysql-original-wordmark.svg" alt="MySQL" width="60" height="60" />
+                    <h5>MySQL</h5>
+                  </div>
+
+                  <div>
+                    <img src="/img/spring-boot-logo.png" alt="Spring Boot" width="60" height="60" />
+                    <h5>Spring Boot</h5>
+                  </div>
+                  <div>
+                    <img src="/img/github.png" alt="git" width="60" height="60" />
+                    <h5>Github</h5>
+                  </div>
+                  <div>
+                    <img src="/img/rest-api-icon.png" alt="rest" width="60" height="60" />
+                    <h5>Rest api</h5>
+                  </div>
+                  
+                </div>
+                <div class="row">
+                  <div class="section-title">
+                    <h2>Tools</h2>
+                  </div>
+                </div>
+                <div class="tools outer-shadow">
+                  <div>
+                    <img src="/img/git-scm-icon.svg" alt="Git" width="60" height="60" />
+                    <h5>Git</h5>
+                  </div>
+                  <div>
+                    <img src="/img/icons8-github-128.svg" alt="GitHub" width="60" height="60" />
+                    <h5>GitHub</h5>
+                  </div>
+                  <div>
+                    <img src="/img/heroku-icon.svg" alt="Heroku" width="60" height="60" />
+                    <h5>Heroku</h5>
+                  </div>
+                  <div>
+                    <img src="/img/netlify-icon.svg" alt="Netlify" width="60" height="60" />
+                    <h5>Netlify</h5>
+                  </div>
+                  <div>
+                    <img src="/img/postman-icon.png" alt="Postman" width="60" height="60" />
+                    <h5>Postman</h5>
+                  </div>
+                  <div>
+                    <img src="/img/intellig.png" alt="IntelliJ" width="60" height="60" />
+                    <h5>IntelliJ</h5>
+                  </div>
+                  <div>
+                    <img src="/img/spring-tools-.svg" alt="Spring Tool" width="60" height="60" />
+                    <h5>Spring Tool</h5>
+                  </div>
+                  <div>
+                    <img src="/img/visualstudio_code-icon.svg" alt="VS Code" width="60" height="60" />
+                    <h5>VS Code</h5>
+                  </div>
+                </div>
+              </div>
+
+              <!------Skill------item--End------------>
+            </div>
+          </div>
+        </div>
+        <!------------------------Skill--end---------------------------->
+
+
+        <!------------------------------Education-Start----------------------->
+        <div class="row">
+          <div class="education tab-content">
+            <div class="row">
+              <div class="timeline">
+                <div class="row">
+                  <!-----------------time-line-start--------->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>May 2022 - may 2023</span>
+                      <h3>Java Back-End Developer</h3>
+                      <!-- <h4>Company name,india</h4> -->
+                      <p>Masai School<br>Koramangala, Bengaluru, Karnataka 560034 </p>
+                    </div>
+                  </div>
+                  <!-----------------time-line-End--------->
+
+                  <!-----------------time-line-start--------->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>May 2015 - March 2019</span>
+                      <h3>Bachelor of Science in Mathematics<em> <em></em></em></h3>
+                      <p>B R A B U University<br> Muzaffarpur</p>
+                    </div>
+                  </div>
+                  <!-----------------time-line-End--------->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="github tab-content">
+            <div class="row">
+              <div class="timeline">
+                <div class="row">
+                  <!-----------------time-line-start--------->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fa-brands fa-github icon"></i>
+                      <p class="gitStatus">&nbsp;<img align="center"
+                          src="https://github-readme-stats.vercel.app/api?username=rajsaurabh78&show_icons=true&locale=en"
+                          alt="saurabh" /></p>
+                    </div>
+                  </div>
+                  <!-----------------time-line-End--------->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fa-brands fa-github icon"></i>
+                      <p class="gitStatus"><img align="center"
+                          src="https://github-readme-stats.vercel.app/api/top-langs?username=rajsaurabh78&show_icons=true&locale=en&layout=compact"
+                          alt="saurabh" /></p>
+                    </div>
+                  </div>
+                  
+                  <!-----------------time-line-start--------->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fa-brands fa-github icon"></i>
+                      <p class="gitStatus"><img align="center"
+                          src="https://github-readme-streak-stats.herokuapp.com/?user=rajsaurabh78&" alt="rajsaurabh78" /></p>
+                    </div>
+                  </div>
+                  <!-----------------time-line-End--------->
+                  <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fa-brands fa-github icon"></i>
+                      <p class="calendar"><img align="center"alt="saurabh" /></p>
+                    </div>
+                  </div>
+                  <!-----------------time-line-End--------->
+                </div>
+
+              </div>
+              <div class="timeline calendar_github">
+                <!-- <div class="calendar  outer-shadow">
+                 
+                  Loading the data just for you.
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------------------------Education-End----------------------->
       </div>
-    </div>
-    <div id="skills">
-      <h1>TOOLS</h1>
-      <div class="skills-card" >
-        <img class="skills-card-img"  src="./img/GitBashLogo.jpg" alt="">
-        <img class="skills-card-img"  src="./img/vs code.jpg" alt="">
-        <img class="skills-card-img"  src="./img/stslogo.png" alt="">
-        <img class="skills-card-img"  src="./img/Netlify-Logo-Vector.jpg" alt="">
-        <img class="skills-card-img"  src="./img/swagger.png" alt="">
-        <img class="skills-card-img"  src="./img/postman-tile.png" alt="">
-        <img class="skills-card-img"  src="./img/IntelliJ-IDEA.png" alt="">
-        <h1 class="skills-card-name" ></h1>
+    </section>
+
+    <!--------------------About---Section----End---------------------------->
+
+
+    <!--------------------------------Project----Section-----Start----------------------------------->
+    <section class="portfolio-section section" id="project">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="Latest">Project</h2>
+          </div>
+        </div>
+        <!----------portfolio--filter-start----------->
+        <div class="row">
+          <div class="portfolio-filter">
+            <span class="filter-item outer-shadow active" data-target=".Website">&lt&lt</span>
+            <span class="filter-item" data-target=".Web_application">>></span>
+          </div>
+        </div>
+        <!-----------portfolio--filter-end------------>
+
+        <!-----------portfolio--section-start------------>
+        <div class="row portfolio-items active Website ">
+          <!------------portfolio item start-------------->
+          <div class="portfolio-item">
+            <div class="portfolio-item-inner outer-shadow">
+              <div>
+                <div class="portfolio-item-img">
+                  <img src="/img/project img/amagement park.png" alt="spark-america-clone.png">
+                </div>
+                <span>
+                  <p class="portfolio-item-title">AdventureLand Village</p>
+                </span>
+                <p> 
+                  <h5>
+                    AdventureLand Village is an amusement park that features various attractions, such as rides and games, as well as other events for entertainment purposes. A theme park is a type of amusement park that bases its structures and attractions around a central theme, often featuring multiple areas with different themes.
+                  </h5>
+                  <span>
+                    <p>Tech Stack</p>
+                  </span>
+                  <h5> JAVA | Spring | Spring Boot | Hibernate | MySql | Github </h5>
+                  <span>
+                    <p>Features </p>
+                  </span>
+                  <h5>  Sign-in | Sign-up | Cart page | Navbar | Footer </h5>
+                  <span>
+                    <p>Areas of responsibility</p>
+                  </span>
+                  <h5>Add Customer | Delete Customer | Get Customers | Update Customer | Drow ER Digran</h5>
+                  <h5>A Collabrative Project Consisting Of the 5 Developer within 5 days.</h5>
+                </p>
+              </div>
+              <!----------view project btn---------->
+              <div class="source_code">
+                <a href="https://github.com/malonicester/Amusement-Park" class=" btn-2 outer-shadow hover-in-shadow"
+                  target="_blank">Github</a>
+                <a href="https://drive.google.com/drive/folders/1PVYP33zb-D8WZxbKEEGa739XQ-pR07AE" class=" btn-2 outer-shadow hover-in-shadow" target="_blank">Video</a>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="portfolio-item">
+            <div class="portfolio-item-inner outer-shadow">
+              <div>
+                <div class="portfolio-item-img">
+                  <img src="/img/project img/library.png" alt="spark-america-clone.png">
+
+                </div>
+                <span>
+                  <p class="portfolio-item-title">Online library Application</p>
+                </span>
+                <p> 
+                  <h5>
+                    This application helps admin to enroll students efficiently, create floor under a library inside floor create shift , under a shift add many seats and allocates the seats in one or more shifts to students.
+                </h5>
+                  <span>
+                    <p>Tech Stack</p>
+                  </span>
+                <h5>JAVA | Spring | Spring Boot | Hibernate | MySql | Github | Spring Security | HTML | CSS | JavaScript | S.T.S</h5>
+                <span>
+                  <p>Features </p>
+                </span>
+              <h5>Login | Admin and Student Authentication | Seat Allotment | CRUD operation for Library, Floor, Shift, Seat, Student and Admin | Update Profile and Other methods.</h5>
+
+                <h5>An individual project devoliping in 15 days.</h5>
+                </p>
+              </div>
+              <!----------view project btn---------->
+              <div class="source_code">
+                <a href="https://github.com/rajsaurabh78/LibrarySystem" class=" btn-2 outer-shadow hover-in-shadow"
+                  target="_blank">Github</a>
+                <a href="https://prcrindia.com/" class=" btn-2 outer-shadow hover-in-shadow" target="_blank">Video</a>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="portfolio-item">
+            <div class="portfolio-item-inner outer-shadow">
+              <div>
+                <div class="portfolio-item-img">
+                  <img src="/img/project img/ecommerce.png" alt="spark-america-clone.png">
+
+                </div>
+                <span>
+                  <p class="portfolio-item-title">E-commerce-Platform-project</p>
+                </span>
+                <p> 
+                  <h5>
+                    Our E-commerce Platform Project in Java is a simple yet robust online marketplace where users can browse through a catalog of products, add items to their cart, and securely complete transactions. Built using Java, the project focuses on core functionalities such as product listing, cart management, and checkout process.
+                  </h5>
+                  <span>
+                    <p>Tech Stack</p>
+                  </span>
+                  <h5> JAVA | Spring | Spring Boot | Hibernate | MySql | Github | Html | Css | JavaScript</h5>
+                  <span>
+                    <p>Features </p>
+                  </span>
+                  <h5>  Sign-in | Sign-up | Cart page | Navbar | Footer </h5>
+                  <span>
+                  <h5>An individual project and it is in devoliping phase.</h5>
+                </p>
+              </div>
+              <!----------view project btn---------->
+              <div class="source_code">
+                <a href="https://github.com/rajsaurabh78/E-commerce-Platform-project" class=" btn-2 outer-shadow hover-in-shadow"
+                  target="_blank">Github</a>
+                <a href="https://narayaniinteriors.com/" class=" btn-2 outer-shadow hover-in-shadow" target="_blank">Video</a>
+              </div>
+
+            </div>
+
+          </div>
+          <!------------portfolio item end-------------->
+
+        </div>
+
+        <!-----------portfolio--section-start------------>
+        <div class="row portfolio-items Web_application">
+          <!------------portfolio item start-------------->
+          <div class="portfolio-item">
+            <div class="portfolio-item-inner outer-shadow">
+              <div>
+                <div class="portfolio-item-img">
+                  <img src="/img/project img/customer.png" alt="spark-america-clone.png">
+
+                </div>
+                <span>
+                  <p class="portfolio-item-title">Online Customer Service Center</p>
+                </span>
+                <p> 
+                  <h5>
+                    Online Customer Service Center managements system which helps in storing and retrieving Information regarding Customer data, Issue data and Operator data. Customers can raise issues that they are facing and the Operators can provide Solution to their issues.
+                  </h5>
+                  <span>
+                    <p>Tech Stack</p>
+                  </span>
+                  <h5> JAVA | Spring | Spring Boot | Hibernate | MySql | Github</h5>
+                  <span>
+                    <p>Features </p>
+                  </span>
+                  <h5>   Sign-in | Sign-up | Cart page | Navbar | Footer </h5>
+                  <span>
+                    <p>Areas of responsibility</p>
+                  </span>
+                  <h5>Change Password | Forget Password | Email Password | Drow ER Digran & flow Diagram</h5>
+                  <h5>A Collabrative Project Consisting Of the 4 Developer within 4 days.</h5>
+                </p>
+              </div>
+              <!----------view project btn---------->
+              <div class="source_code">
+                <a href="https://github.com/RitishFG/abstracted-wren-623/" target="_blank" class=" btn-2 outer-shadow hover-in-shadow">Github</a>
+                <a href="https://drive.google.com/file/d/1fzTYbUHO2_Jv2nxz43SR64aunwnHJ29u/view" class=" btn-2 outer-shadow hover-in-shadow" target="_blank">Video</a>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-item-inner outer-shadow">
+              <div>
+                <div class="portfolio-item-img">
+                  <img src="/img/project img/harvest.png" alt="spark-america-clone.png">
+                  <!----------view project btn---------->
+
+                </div>
+                <span>
+                  <p class="portfolio-item-title">Get Harvest Clone</p>
+                </span>
+                <p> 
+                  <h5>
+                    Harvest is a cloud-based time tracking tool designed for businesses of all sizes.
+                  </h5>
+                  <span>
+                    <p>Tech Stack</p>
+                  </span>
+                  <h5>  HTML | CSS | JavaScript | Github</h5>
+                  <span>
+                    <p>Features </p>
+                  </span>
+                  <h5> Sign-in | Sign-up | Integrations page | Why harvest page | Features page | Customers page </h5>
+                  <span>
+                    <p>Areas of responsibility</p>
+                  </span>
+                  <h5>Integrations page</h5>
+                  <h5>A collaborative project developed within 4 days, with a team of 5 members.</h5>
+                </p>
+              </div>
+              <!----------view project btn---------->
+              <div class="source_code">
+                <a href="https://github.com/farhaz1o/standing-frog-1055/" target="_blank" class=" btn-2 outer-shadow hover-in-shadow">Github</a>
+                <a href="https://vermillion-gumdrop-83c95e.netlify.app/" class=" btn-2 outer-shadow hover-in-shadow" target="_blank">Deploy</a>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div class="portfolio-item">
+            <div class="portfolio-item-inner outer-shadow">
+              <div>
+                <div class="portfolio-item-img">
+                  <img src="/img/project img/Wrike-homepage-1024x483.png" alt="spark-america-clone.png">
+
+                </div>
+                <span>
+                  <p class="portfolio-item-title">Wrike Clone</p>
+                </span>
+                <p> 
+                  <h5>
+                    Wrike is an easy-to-use tool for streamlining the internal project management and collaboration processes between team members.
+                  </h5>
+                  <span>
+                    <p>Tech Stack</p>
+                  </span>
+                  <h5>  HTML | CSS | JavaScript | Github</h5>
+                  <span>
+                    <p>Features </p>
+                  </span>
+                  <h5>Sign-in | Sign-up | Price page | Wrike Blog | Tour page | Help center page</h5>
+                  <span>
+                    <p>Areas of responsibility</p>
+                  </span>
+                  <h5>WrikeBlog page</h5>
+                  <h5>A collaborative project developed within 4 days, with a team of 5 members.</h5>
+                </p>
+              </div>
+              <!----------view project btn---------->
+              <div class="source_code">
+                <a href="https://github.com/Durgesh9871/Wrike/" target="_blank" class=" btn-2 outer-shadow hover-in-shadow">Github</a>
+                <a href="https://profound-lamington-2fcd8c.netlify.app/" class=" btn-2 outer-shadow hover-in-shadow" target="_blank">Deploy</a>
+              </div>
+            </div>
+
+            </div>
+
+          </div>
+          <!------------portfolio item end-------------->
+
+        </div>
+        <!-----------portfolio--section-end------------>
+        <!-- <div class="row">
+          <div class="portfolio-filter">
+            <span class="filter-item outer-shadow active" data-target=".Website">&lt&lt</span>
+            <span class="filter-item" data-target=".Web_application">>></span>
+          </div>
+        </div> -->
       </div>
-    </div>
+    </section>
 
-<div id="projects">
-  <h1>PROJECTS</h1>
-</div>
+    <!--------------------------Contact----Section-----Start-------------------->
 
-<!-- <div id="cal">
-    <h1>Github Calendar</h1>
-    <div class="calendar" id="git"> </div>
-</div> -->
-<div id="gitsta">
-    <div id="gitpic" class="react-activity-calendar">
-        <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs?username=rajsaurabh78&show_icons=true&locale=en&layout=compact" alt="rajsaurabh78" />
+    <section class="contact-section section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-heading="Contact">Get In Touch</h2>
+            <div class="about-section " id="contact_link">
+              <!-------------------Social---Links------Start------------------->
+
+              <div class="about-img">
+                <!-------------------Social---Links------Start------------------->
+
+                <div class="social-links">
+                  <a href="https://github.com/rajsaurabh78" target="_blank" class="outer-shadow hover-in-shadow"><i
+                      class="fa-brands fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/saurabh-kumar-375b81bb/" target="_blank"
+                    class="outer-shadow hover-in-shadow">
+                    <i class="fa-brands fa-linkedin-in"></i></a>
+                  <a href="https://www.instagram.com/rajsaurabh78/?igsh=MWI2eW9qc2hiYXdiYg%3D%3D" target="_blank" class="outer-shadow hover-in-shadow"><i
+                      class="fa-brands fa-instagram"></i></a>
+                </div>
+
+
+                <!-------------------Social---Links------Start------------------->
+
+              </div>
+              <!-------------------Social---Links------Start------------------->
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!----------------------Contact--Start--------------->
+          <div class="contact-item">
+            <div class="contact-item-inner outer-shadow" onclick="makeCall('+91 7352490549')">
+              <i class="fas fa-phone"></i>
+              <span>Phone</span>
+              <p>+91 7352490549</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-inner outer-shadow" onclick="sendEmail('rajsaurabh78@gmail.com')">
+              <i class=" fas fa-envelope"></i>
+              <span>Email</span>
+              <p>rajsaurabh78@gmail.com</p>
+            </div>
+          </div>
+          <!----------------------Contact--End--------------->
+          <!----------------------Contact--Start--------------->
+          <div class=" contact-item">
+            <div class="contact-item-inner outer-shadow">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Address</span>
+              <p>Hajipur, Vaishali, Bihar-844504</p>
+            </div>
+          </div>
+          <!----------------------Contact--End--------------->
+        </div>
+        <div class="row">
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="row">
+                <div class="w-50">
+                  <div>
+                    <div class="input-group outer-shadow hover-in-shadow">
+                      <input class="input-control" id="Name" type="text" placeholder="Name">
+                    </div>
+                    <div class="error-message" id="nameError"></div>
+                  </div>
+                  <br>
+
+                  <div>
+
+                    <div class="input-group outer-shadow hover-in-shadow">
+                      <input class="input-control" id="Email" type="email" placeholder="Email">
+
+                    </div>
+                    <div class="error-message" id="emailError"></div>
+                  </div>
+                  <br>
+                  <div>
+                    <div class="input-group outer-shadow hover-in-shadow">
+                      <input class="input-control" id="Subject" type="text" placeholder="Subject">
+
+                    </div>
+                    <div class="error-message" id="subjectError"></div>
+                  </div>
+                  <br>
+                </div>
+                <div class="w-50">
+                  <div class="input-group outer-shadow hover-in-shadow">
+                    <textarea class="input-control" id="Message" placeholder="Message"></textarea>
+
+                  </div>
+
+                  <div class="error-message" id="messageError"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="submit-btn">
+                  <button type="submit" class="btn-1 outer-shadow hover-in-shadow" id="submitButton">
+                    <span id="buttonText">Send Message</span>
+                    <div class="spinner" id="spinner"></div>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+
+
+
       </div>
-      <div id="gitpic">
-        <img id="github-stats-card"src="https://github-readme-stats.vercel.app/api?username=rajsaurabh78&show_icons=true&locale=en" alt="rajsaurabh78" />
-        <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=rajsaurabh78&" alt="rajsaurabh78" />
-      </div>      
-    </div>
-<div id="contact">
-  <h1>Contacts</h1>
-  <div>
-      <div id="contact-github">
-        <a href="https://github.com/Rajsaurabh78"><img src="./img/github-11-256.png" alt=""></a>
-        <a href="https://github.com/Rajsaurabh78"><h3>GitHub</h3></a>
-       </div>
-       <div id="contact-email">
-            <a href="#contact"><img src="./img/white-email-icon-png-16.jpg" alt=""></a>
-            <h3>rajsaurabh78@gmail.com</h3>
-       </div>
-       <div id="contact-phone">
-            <a href="#contact"><img src="./img/phone-white-icon-7.jpg" alt=""></a>
-            <h3>+91 7352490549</h3>
-       </div> 
-       <div id="contact-linkedin">
-        <a href="https://www.linkedin.com/in/saurabh-kumar-375b81bb/"><img src="./img/in white.png" alt=""></a>
-        <a href="https://www.linkedin.com/in/saurabh-kumar-375b81bb/"><h3>LinkedIn</h3></a>
-       </div>
-       <div>
-        <a href="https://twitter.com/rajsaurabh78"><img src="./img/pngkey.com-twitter-symbol-png-1298249.png" alt=""></a>
-        <a href="https://twitter.com/rajsaurabh78"><h3>Twitter</h3></a>
-       </div>
-       
+    </section>
+    <section>
+      <div class="rt-container">
+        <div class="col-rt-12">
+          <div class="Scriptcontent">
 
-  </div>
-</div>
-        <section id="footer-section">
-            <div><i class="uil uil-copyright"></i> Created by <span class="footer-name">SAURABH KUMAR</span> | All rights reserved.</div>
-        </section>
-  </div>
+            <!-- partial:index.partial.html -->
+            <!-- Return to Top -->
+            <a href="javascript:" id="return-to-top"><i class="fa-solid fa-angle-up"></i></a>
 
-</body>
-</html>
-<script src="./index.js"></script>
-<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------Contact----Section-----End---------------------->
+
+    <!--------------------------------Project----Section-----End----------------------------------->
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <!-- style switcher js -->
+    <script src="js/style-switcher.js"></script>
+    <!-- partial -->
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js'></script>
+    <script src="/js/nav.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
     <script>
-      GitHubCalendar(".calendar", "rajsaurabh78");
       GitHubCalendar(".calendar", "rajsaurabh78", { responsive: true });
     </script>
-   
+  </body>
+
+</html>
