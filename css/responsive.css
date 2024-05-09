@@ -79,7 +79,9 @@
   .portfolio-section .portfolio-item {
     max-width: 100%;
   }
-  
+  #some{
+    display: none;
+  }
 }
 
 @media (max-width: 767px) and (min-width: 600px) {
@@ -159,5 +161,8 @@
   }
   .about-section .timeline .timeline-item:last-child {
     margin-bottom: 0;
+  }
+  #some{
+    display: none;
   }
 }

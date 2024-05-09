@@ -19,6 +19,11 @@
 html {
   scroll-behavior: smooth;
 }
+#footer-section{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 
 /*-------------------------global css-----------------------*/
 
@@ -432,16 +437,7 @@ img {
   border-radius: 30px;
 }
 
-/*--------------------------Copyrigth-----text---------------------------------*/
 
-.nav-menu .copyright-text {
-  position: absolute;
-  top: 50%;
-  font-size: 15px;
-  color: var(--text-black-600);
-  transform: translateY(-50%) rotate(-90deg);
-  left: -60px;
-}
 
 /*!---------------------------------Home---Section------------------------------------>*/
 .home-section {
