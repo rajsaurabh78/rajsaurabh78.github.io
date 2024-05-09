@@ -65,7 +65,7 @@ function ScrollAbout() {
 function ScrollExperience() {
     setTimeout(scroll, 100);
     function scroll() {
-        window.location.href = "#EXPERIENCE"
+        window.location.href = "#experience"
     }
 }
 

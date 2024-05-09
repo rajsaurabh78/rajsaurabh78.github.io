@@ -334,7 +334,22 @@ img {
 .header .hamburger-btn span::after {
   top: 6px;
 }
-
+.about-intro{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.about-intro .box-1, .about-intro .box-2, .about-intro .box-3{
+ 
+  text-align: center;
+  font-size: 13px;
+}
+.about-intro .box-1 .text-1, .about-intro .box-2 .text-2, .about-intro .box-3 .text-3{
+  color: var(--dark);
+  font-size: 35px;
+  font-weight: 600;
+}
 /*---------------Navigation Menu------------------*/
 
 .nav-menu {
@@ -551,6 +566,11 @@ img {
   flex: 0 0 60%;
   max-width: 60%;
   padding: 0 15px;
+}
+
+.about-section .about-info a {
+  margin-left: 10%;
+  margin-top: 5%;
 }
 
 .about-section .about-info p {
