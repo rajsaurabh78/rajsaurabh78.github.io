@@ -569,10 +569,16 @@ img {
 }
 
 .about-section .about-info a {
-  margin-left: 10%;
-  margin-top: 5%;
+  margin: auto;
+  
 }
-
+.aboutdiv{
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:5%;
+}
 .about-section .about-info p {
   font-size: 16px;
   line-height: 26px;

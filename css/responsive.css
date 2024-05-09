@@ -82,6 +82,10 @@
   #some{
     display: none;
   }
+  .aboutdiv{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 767px) and (min-width: 600px) {
@@ -164,5 +168,9 @@
   }
   #some{
     display: none;
+  }
+  .aboutdiv{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
