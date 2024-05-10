@@ -86,6 +86,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  #footer-section{
+    text-align: center;
+    margin-top: -10%;
+  }
+  
 }
 
 @media (max-width: 767px) and (min-width: 600px) {
@@ -173,4 +178,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  /* #footer-section{
+    text-align: center;
+    margin-top: -500%;
+  }   */
 }

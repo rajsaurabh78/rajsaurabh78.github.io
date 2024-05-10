@@ -221,14 +221,13 @@ function send(event) {
         submitButton.disabled = true;
         buttonText.innerText = "Sending..."; // Change the button text
         spinner.style.display = "inline-block";
-        const telegram_bot_id = "6023147125:AAFNIQXu0pEbTEeXqLy3DF7f26ThBkMmG14"; // Replace with your Telegram bot ID
+        const telegram_bot_id = "7091265608:AAGEiDXiaFhs-ujZYaMxGvh_bpB-Uo-RsmM"; // Replace with your Telegram bot ID
         const payload = {
-            chat_id: -1001940338600, // Replace with the desired chat ID
+            chat_id: 968100223, // Replace with the desired chat ID
             text: `Subject: ${subject}\nName: ${name}\nEmail: ${email}\nMessage: ${message}`
         };
 
         const telegramApiUrl = `https://api.telegram.org/bot${telegram_bot_id}/sendMessage`;
-
         // Telegram API call
         fetch(telegramApiUrl, {
             method: "POST",
@@ -238,102 +237,100 @@ function send(event) {
             },
             body: JSON.stringify(payload)
         })
-            .then((response) => response.json())
-            .then((data) => {
+        .then((response) => response.json()).then((data) => {
                 // Re-enable the button and hide the spinner after sending
-                submitButton.disabled = false;
-                spinner.style.display = "none";
-                buttonText.innerText = "Send Message"; // Restore the original button text
-                if (data.ok) {
-
-
-                    // Sending email using Email.js
-                    Email.send({
-                        Host: "smtp.elasticemail.com",
-                        Username: "rajsaurabh78@gmail.com",
-                        Password: "DAB435188A632F22213CBE5BA5638CD1B299",
-                        To: 'rajsaurabh78@gmail.com',
-                        From: "rajsaurabh78@gmail.com",
-                        Subject: "New Contact Form Submission",
-                        Body: `
-                            <!DOCTYPE html>
-                            <html>
-                            <head>
-                                <style>
-                                    body {
-                                        font-family: Arial, sans-serif;
-                                        background-color: #f4f4f4;
-                                        color: #333;
-                                        margin: 0;
-                                        padding: 0;
-                                    }
-                                    .container {
-                                        width: 80%;
-                                        margin: 20px auto;
-                                        background: #fff;
-                                        padding: 20px;
-                                        border-radius: 8px;
-                                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                                    }
-                                    .header {
-                                        background-color: #007bff;
-                                        color: white;
-                                        padding: 10px;
-                                        text-align: center;
-                                        border-radius: 8px 8px 0 0;
-                                    }
-                                    .content {
-                                        padding: 20px;
-                                    }
-                                    .footer {
-                                        text-align: center;
-                                        padding: 10px;
-                                        font-size: 0.8em;
-                                        color: #666;
-                                    }
-                                </style>
-                            </head>
-                            <body>
-                                <div class="container">
-                                    <div class="header">
-                                        <h2>New Contact Form Submission</h2>
-                                    </div>
-                                    <div class="content">
-                                        <p><strong>Dear Mohd Awresh,</strong></p>
-                                        <p>We have received a new inquiry via the contact form on our website. Here are the details:</p>
-                                        <p>
-                                        <strong>Subject:</strong> ${subject}<br>
-                                        <strong>Name:</strong> ${name}<br>
-                                        <strong>Email:</strong> ${email}<br>
-                                        <br>
-                                        <strong>Message:</strong><br>
-                                        ${message}</p>
-                                        <p>Please review this inquiry </p>
-                                    </div>
-                                    <div class="footer">
-                                        <p>This is an automated message from Contact Form System.</p>
-                                    </div>
-                                </div>
-                            </body>
-                            </html>
-                        `
-                    }).then(
-                        (emailMessage) => {
-                            if (emailMessage === "OK") {
-                                swal("Success", "Thank you for contacting us 😊", "success");
-                                form.reset();
-                            } else {
-                                swal("Not Sent", "An error occurred while sending the message!", "error");
-                            }
+            submitButton.disabled = false;
+            spinner.style.display = "none";
+            buttonText.innerText = "Send Message"; // Restore the original button text
+            if (data.ok) {
+        
+        
+        // Sending email using Email.js
+        Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: "rajsaurabh78@gmail.com",
+            Password: "6D86AA3C158A3441E40C2236EBF63A70E172",
+            To: 'kumarsaurabhsingh49@gmail.com',
+            From: "rajsaurabh78@gmail.com",
+            Subject: "New Contact Form Submission",
+            Body: `
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            background-color: #f4f4f4;
+                            color: #333;
+                            margin: 0;
+                            padding: 0;
                         }
-                    );
+                        .container {
+                            width: 80%;
+                            margin: 20px auto;
+                            background: #fff;
+                            padding: 20px;
+                            border-radius: 8px;
+                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        }
+                        .header {
+                            background-color: #007bff;
+                            color: white;
+                            padding: 10px;
+                            text-align: center;
+                            border-radius: 8px 8px 0 0;
+                        }
+                        .content {
+                            padding: 20px;
+                        }
+                        .footer {
+                            text-align: center;
+                            padding: 10px;
+                            font-size: 0.8em;
+                            color: #666;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="container">
+                        <div class="header">
+                            <h2>New Contact Form Submission</h2>
+                        </div>
+                        <div class="content">
+                            <p><strong>Dear Mohd Awresh,</strong></p>
+                            <p>We have received a new inquiry via the contact form on our website. Here are the details:</p>
+                            <p>
+                            <strong>Subject:</strong> ${subject}<br>
+                            <strong>Name:</strong> ${name}<br>
+                            <strong>Email:</strong> ${email}<br>
+                            <br>
+                            <strong>Message:</strong><br>
+                            ${message}</p>
+                            <p>Please review this inquiry </p>
+                        </div>
+                        <div class="footer">
+                            <p>This is an automated message from Contact Form System.</p>
+                        </div>
+                    </div>
+                </body>
+                </html>
+            `
+        }).then(
+            (emailMessage) => {
+                if (emailMessage === "OK") {
+                    swal("Success", "Thank you for contacting us 😊", "success");
+                    form.reset();
                 } else {
                     swal("Not Sent", "An error occurred while sending the message!", "error");
                 }
-            })
-            .catch((error) => {
-                swal("Not Sent", "An error occurred while sending the message!", "error");
-            });
+            }
+        );
+        }else {
+            swal("Not Sent", "An error occurred while sending the message!", "error");
+        }
+        }).catch((error) => {
+            swal("Not Sent", "An error occurred while sending the message!", "error");
+        });
     }
 }
 
@@ -344,22 +341,6 @@ document.querySelector("#Subject").addEventListener("input", () => clearError(su
 document.querySelector("#Message").addEventListener("input", () => clearError(messageError));
 
 
-// document.querySelector("form").addEventListener("submit", send);
-// function send() {
-//     let form = document.querySelector("form");
-//     event.preventDefault();
-//     let name = form.Name.value;
-//     let email = form.Email.value;
-//     let Subject = form.Subject.value;
-//     let message = form.Message.value;
-//     if (name !== "" && email !== "" && Subject !== "" && message !== "") {
-
-//     }
-//     else {
-//         //swal("please fill all required fields")
-//         swal("Not Send", "Kindly fill in all mandatory fields 🙄", "error");
-//     }
-// }
 
 
 
