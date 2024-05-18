@@ -1,0 +1,37 @@
+body.dark-theme {
+    background-color: #000000;
+    -webkit-text-fill-color: #fff;
+    .about-section .about-info a ,.source_code a{
+        margin: auto;
+        color: #fff;
+    }
+    #more{
+        color: #fff;
+    }
+    #moree a{
+        -webkit-text-fill-color: #000000;
+    }
+}
+/* ========== Button Dark/Light ========== */
+#theme-button {
+    margin-left: 3%;
+    color: #fff;
+    top: 0;
+    position: sticky;
+}
+.change-theme {
+    font-size: 1.25rem;
+    color: var(--title-color);
+    margin-right: var(--mb-1);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.section {
+    padding: 2rem 0 2rem;
+}
+
+
+
+
+
+

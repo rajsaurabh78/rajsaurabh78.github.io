@@ -11,7 +11,10 @@
     <!-- main css -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" href="css/dark.css">
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <script src="https://kit.fontawesome.com/19ae1c0515.js" crossorigin="anonymous"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZPV4F3MSR"></script>
@@ -25,6 +28,7 @@
   </head>
 
   <body>
+    <!-- <i class="uil uil-moon change-theme" id="tb"></i> -->
     <nav class="navbar navbar-expand-custom navbar-mainbg" id="first_nav">
       <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -54,12 +58,14 @@
           <li class="nav-item ">
             <a class="nav-link" href="#contact"><i class="far fa-address-book"></i>Contact</a>
           </li>
-
-
         </ul>
       </div>
-      <div> <a onclick="resume()" href="./img/Saurabh_Kumar_Resume.pdf" class=" btn-1  hover-in-shadow" download>Resume</a>
+      <div id="moree"> 
+        <a onclick="resume()" href="./img/Saurabh_Kumar_Resume.pdf"  class=" btn-1  hover-in-shadow" download>Resume</a>
       </div>
+      <!-- <div > -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+      <!-- </div> -->
     </nav>
 
     <!---------------------------------------Header---------------------------------------->
@@ -78,6 +84,9 @@
 
 
     <!---------------------------------Navigatin---------start--------------------------->
+    <!-- <div class="nav_btns">
+      <i class="uil uil-moon change-theme" id="theme-button"></i>
+    </div> -->
 
     <nav class="nav-menu">
       <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
@@ -90,7 +99,7 @@
           </li>
           <li><a href="#contact" class="link-item outer-shadow hover-in-shadow" onclick="ScrollContact()">Contact</a>
           </li>
-          <li><a href="Saurabh_Kumar_Resume.pdf" class="link-item outer-shadow hover-in-shadow"
+          <li><a href="img/Saurabh_Kumar_Resume.pdf" class="link-item outer-shadow hover-in-shadow"
               onclick="hideNavMenu() ,resume()" download>Resume</a>
           </li>
       </div>
@@ -173,7 +182,7 @@
             <p class="text-effect">Hello!</p>
             <h2 class="text-effect">I'm Saurabh kumar,</h2>
             <h1 class="text-effect">JAVA BACKEND DEVELOPER</h1>
-            <a href="#about" class=" btn-1 outer-shadow hover-in-shadow">More About Me</a>
+            <a href="#about" class="btn-1 outer-shadow hover-in-shadow" id="more">More About Me</a>
 
           </div>
 
@@ -334,7 +343,7 @@
                     <h5>Git</h5>
                   </div>
                   <div>
-                    <img src="/img/icons8-github-128.svg" alt="GitHub" width="60" height="60" />
+                    <img src="/img/github.png" alt="GitHub" width="60" height="60" />
                     <h5>GitHub</h5>
                   </div>
                   <div>
@@ -923,6 +932,7 @@
       GitHubCalendar(".calendar", "rajsaurabh78", { responsive: true });
     </script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/dark.js"></script>
   </body>
 
 </html>

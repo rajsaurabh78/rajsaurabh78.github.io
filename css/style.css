@@ -567,9 +567,9 @@ img {
   padding: 0 15px;
 }
 
-.about-section .about-info a {
+.about-section .about-info a ,.source_code a{
   margin: auto;
-  
+  color: #000000;
 }
 .aboutdiv{
   margin: auto;
@@ -577,6 +577,7 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap:5%;
+  color: #06d79c;
 }
 .gap{
   margin-top: 5%;
