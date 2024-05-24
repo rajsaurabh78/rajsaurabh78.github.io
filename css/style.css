@@ -71,6 +71,7 @@ img {
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
 }
 .justify-content-between {
   justify-content: space-between;
@@ -332,6 +333,10 @@ img {
 }
 .header .hamburger-btn span::after {
   top: 6px;
+}
+#exp{
+  width: 94%;
+  margin: auto;
 }
 .about-intro{
   width: 100%;
