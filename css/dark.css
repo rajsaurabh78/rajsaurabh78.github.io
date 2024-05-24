@@ -11,6 +11,9 @@ body.dark-theme {
     #moree a{
         -webkit-text-fill-color: #000000;
     }
+    ul.custom-bullets {
+      color: #fff;
+    }
 }
 /* ========== Button Dark/Light ========== */
 #theme-button {
