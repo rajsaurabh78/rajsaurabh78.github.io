@@ -82,9 +82,10 @@
   #some{
     display: none;
   }
-  .aboutdiv{
+  .aboutdiv,.about-intro{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
   }
   #footer-section{
     text-align: center;
@@ -174,9 +175,10 @@
   #some{
     display: none;
   }
-  .aboutdiv{
+  .aboutdiv,.about-intro{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
   }
   /* #footer-section{
     text-align: center;
