@@ -6,18 +6,17 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="/img/school.png">
     <link rel="stylesheet" href="css/nav.css">
-    <!-- font awesome -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.css"> -->
-    <!-- main css -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" href="css/dark.css">
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
-    
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
+		integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> -->
     <script src="https://kit.fontawesome.com/19ae1c0515.js" crossorigin="anonymous"></script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZPV4F3MSR"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZPV4F3MSR"></script> -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
@@ -28,7 +27,9 @@
   </head>
 
   <body>
-    <!-- <i class="uil uil-moon change-theme" id="tb"></i> -->
+    <div class="toggle-theme" title="Change theme">
+      <i class="bx"></i>
+    </div>
     <nav class="navbar navbar-expand-custom navbar-mainbg" id="first_nav">
       <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -63,9 +64,6 @@
       <div id="moree"> 
         <a onclick="resume()" href="./img/Saurabh_Kumar_Resume.pdf"  class=" btn-1  hover-in-shadow" download>Resume</a>
       </div>
-      <!-- <div > -->
-        <i class="uil uil-moon change-theme" id="theme-button"></i>
-      <!-- </div> -->
     </nav>
 
     <!---------------------------------------Header---------------------------------------->
@@ -84,11 +82,9 @@
 
 
     <!---------------------------------Navigatin---------start--------------------------->
-    <!-- <div class="nav_btns">
-      <i class="uil uil-moon change-theme" id="theme-button"></i>
-    </div> -->
 
-    <nav class="nav-menu">
+
+    <nav class="nav-menu" >
       <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
       <div class="nav-menu-inner">
         <ul>
@@ -99,7 +95,7 @@
           </li>
           <li><a href="#contact" class="link-item outer-shadow hover-in-shadow" onclick="ScrollContact()">Contact</a>
           </li>
-          <li><a href="img/Saurabh_Kumar_Resume.pdf" class="link-item outer-shadow hover-in-shadow"
+          <li><a id="moree" href="img/Saurabh_Kumar_Resume.pdf" class="link-item outer-shadow hover-in-shadow"
               onclick="hideNavMenu() ,resume()" download>Resume</a>
           </li>
       </div>
@@ -939,7 +935,6 @@
     <script>
       GitHubCalendar(".calendar", "rajsaurabh78", { responsive: true });
     </script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="js/dark.js"></script>
   </body>
 

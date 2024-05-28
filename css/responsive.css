@@ -91,6 +91,9 @@
     text-align: center;
     margin-top: -5%;
   }
+  .toggle-theme {
+    color: black;
+  }
   
 }
 
@@ -179,6 +182,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+  }
+  .toggle-theme {
+    color: black;
   }
   /* #footer-section{
     text-align: center;

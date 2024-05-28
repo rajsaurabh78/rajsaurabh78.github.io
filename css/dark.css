@@ -1,4 +1,4 @@
-body.dark-theme {
+body.dark {
     background-color: #000000;
     -webkit-text-fill-color: #fff;
     .about-section .about-info a ,.source_code a{
@@ -11,30 +11,23 @@ body.dark-theme {
     #moree a{
         -webkit-text-fill-color: #000000;
     }
-    ul.custom-bullets {
+    ul.custom-bullets{
       color: #fff;
     }
+    .nav-menu a{
+        color: #000000;
+    }
+    #moree,.nav-menu{
+        -webkit-text-fill-color: #000000;
+    }
 }
-/* ========== Button Dark/Light ========== */
-#theme-button {
-    margin-left: 3%;
+.toggle-theme {
+    position: fixed;
+    right:14%;
+    top: 4%;
+    /* top: calc(50% - 20px);
+    height: 40px;
+    width: 40px; */
+    z-index: 1200;
     color: #fff;
-    top: 0;
-    position: sticky;
 }
-.change-theme {
-    font-size: 1.25rem;
-    color: var(--title-color);
-    margin-right: var(--mb-1);
-    cursor: pointer;
-    transition: 0.5s;
-}
-.section {
-    padding: 2rem 0 2rem;
-}
-
-
-
-
-
-
