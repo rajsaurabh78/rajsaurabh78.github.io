@@ -94,6 +94,14 @@
   .toggle-theme {
     color: black;
   }
+  #darkModeToggle{
+    margin: auto;
+    padding:18px 18px;
+    border-radius:50%;
+    margin-top:4%;
+    margin-left:45%;
+    background-color:#e5e7eb;
+  }
   
 }
 
@@ -186,8 +194,12 @@
   .toggle-theme {
     color: black;
   }
-  /* #footer-section{
-    text-align: center;
-    margin-top: -500%;
-  }   */
+  #darkModeToggle{
+    margin: auto;
+    padding:18px 18px;
+    border-radius:50%;
+    margin-top:4%;
+    margin-left:125%;
+    background-color:#e5e7eb;
+  }
 }

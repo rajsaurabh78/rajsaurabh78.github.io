@@ -23,11 +23,16 @@ body.dark {
 }
 .toggle-theme {
     position: fixed;
-    right:14%;
-    top: 4%;
-    /* top: calc(50% - 20px);
-    height: 40px;
-    width: 40px; */
+    right:12%;
+    top:2%;
     z-index: 1200;
     color: #fff;
+}
+/* Toggle button styles */
+.dark-mode-toggle {
+    padding: 12px 30px;
+    background-color:#e5e7eb;
+    border: none;
+    cursor: pointer;
+    border-radius:40px;
 }
