@@ -23,7 +23,7 @@ body.dark {
 }
 .toggle-theme {
     position: fixed;
-    right:12%;
+    right:10%;
     top:2%;
     z-index: 1200;
     color: #fff;
